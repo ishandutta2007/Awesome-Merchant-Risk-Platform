@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square&color=gold" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square&color=gold" alt="GitHub_Stars"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square" alt="GitHub forks"/></a>
   <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square" alt="License"/></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -77,293 +77,293 @@ This repository details both **Commercial Hosted SaaS Platforms** and **Producti
 
 ### 🛡️ Open-Source Fraud & Risk Engines
 
-* **[ballerine-io/ballerine](https://github.com/ballerine-io/ballerine)** [![GitHub stars](https://img.shields.io/github/stars/ballerine-io/ballerine?style=social&color=white)](https://github.com/ballerine-io/ballerine/stargazers)
+* **[ballerine-io/ballerine](https://github.com/ballerine-io/ballerine)** [![GitHub_Stars](https://img.shields.io/github/stars/ballerine-io/ballerine?style=social&color=white)](https://github.com/ballerine-io/ballerine/stargazers)
 
   Open-source infrastructure and data orchestration platform for merchant risk decisioning, KYC/KYB & compliance workflows.
 
-* **[jube-home/aml-fraud-transaction-monitoring](https://github.com/jube-home/aml-fraud-transaction-monitoring)** [![GitHub stars](https://img.shields.io/github/stars/jube-home/aml-fraud-transaction-monitoring?style=social&color=white)](https://github.com/jube-home/aml-fraud-transaction-monitoring/stargazers)
+* **[jube-home/aml-fraud-transaction-monitoring](https://github.com/jube-home/aml-fraud-transaction-monitoring)** [![GitHub_Stars](https://img.shields.io/github/stars/jube-home/aml-fraud-transaction-monitoring?style=social&color=white)](https://github.com/jube-home/aml-fraud-transaction-monitoring/stargazers)
 
   Open-source AML & fraud detection platform with real-time transaction monitoring, rules, ML scoring & case management.
 
-* **[AmirhosseinHonardoust/Financial-Fraud-Risk-Engine](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine)** [![GitHub stars](https://img.shields.io/github/stars/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine?style=social&color=white)](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine/stargazers)
+* **[AmirhosseinHonardoust/Financial-Fraud-Risk-Engine](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine)** [![GitHub_Stars](https://img.shields.io/github/stars/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine?style=social&color=white)](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine/stargazers)
 
   End-to-end fraud risk pipeline featuring cost-sensitive ML, threshold optimization, SHAP explainability & analyst dashboard.
 
-* **[OlawumiSalaam/fraud-detection-system](https://github.com/OlawumiSalaam/fraud-detection-system)** [![GitHub stars](https://img.shields.io/github/stars/OlawumiSalaam/fraud-detection-system?style=social&color=white)](https://github.com/OlawumiSalaam/fraud-detection-system/stargazers)
+* **[OlawumiSalaam/fraud-detection-system](https://github.com/OlawumiSalaam/fraud-detection-system)** [![GitHub_Stars](https://img.shields.io/github/stars/OlawumiSalaam/fraud-detection-system?style=social&color=white)](https://github.com/OlawumiSalaam/fraud-detection-system/stargazers)
 
   FastAPI & LightGBM real-time payment decisioning platform with audit logging & Streamlit visualization.
 
-* **[opensyndicate/risk-triage](https://github.com/opensyndicate/risk-triage)** [![GitHub stars](https://img.shields.io/github/stars/opensyndicate/risk-triage?style=social&color=white)](https://github.com/opensyndicate/risk-triage/stargazers)
+* **[opensyndicate/risk-triage](https://github.com/opensyndicate/risk-triage)** [![GitHub_Stars](https://img.shields.io/github/stars/opensyndicate/risk-triage?style=social&color=white)](https://github.com/opensyndicate/risk-triage/stargazers)
 
   Payment risk scoring & fraud triage library providing weighted transaction signals, reason codes & advisory decisions.
 
-* **[peralivet/fraud-detection-platform](https://github.com/peralivet/fraud-detection-platform)** [![GitHub stars](https://img.shields.io/github/stars/peralivet/fraud-detection-platform?style=social&color=white)](https://github.com/peralivet/fraud-detection-platform/stargazers)
+* **[peralivet/fraud-detection-platform](https://github.com/peralivet/fraud-detection-platform)** [![GitHub_Stars](https://img.shields.io/github/stars/peralivet/fraud-detection-platform?style=social&color=white)](https://github.com/peralivet/fraud-detection-platform/stargazers)
 
   Calibrated fraud modeling, cost-sensitive thresholding, risk bands & production batch scoring system.
 
 ### 🧠 Fraud Detection & Machine Learning
 
-* **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** [![GitHub stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)
+* **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** [![GitHub_Stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)
 
   End-to-end machine learning framework for deep anomaly detection and transaction risk scoring.
 
-* **[pytorch/pytorch](https://github.com/pytorch/pytorch)** [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
+* **[pytorch/pytorch](https://github.com/pytorch/pytorch)** [![GitHub_Stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
 
   Deep learning framework for sequence modeling, behavioral biometrics & graph neural network fraud detection.
 
-* **[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)
+* **[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub_Stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)
 
   Machine learning toolkit for transaction classification, clustering, outlier detection & feature preprocessing.
 
-* **[dmlc/xgboost](https://github.com/dmlc/xgboost)** [![GitHub stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)
+* **[dmlc/xgboost](https://github.com/dmlc/xgboost)** [![GitHub_Stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)
 
   Scalable gradient boosting framework optimized for tabular transaction risk models.
 
-* **[mlflow/mlflow](https://github.com/mlflow/mlflow)** [![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)
+* **[mlflow/mlflow](https://github.com/mlflow/mlflow)** [![GitHub_Stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)
 
   ML lifecycle platform for experiment tracking, model registry, evaluation & deployment in risk systems.
 
-* **[shap/shap](https://github.com/shap/shap)** [![GitHub stars](https://img.shields.io/github/stars/shap/shap?style=social&color=white)](https://github.com/shap/shap/stargazers)
+* **[shap/shap](https://github.com/shap/shap)** [![GitHub_Stars](https://img.shields.io/github/stars/shap/shap?style=social&color=white)](https://github.com/shap/shap/stargazers)
 
   Explainable-AI toolkit for feature-attribution explanations on individual transaction risk decisions.
 
-* **[optuna/optuna](https://github.com/optuna/optuna)** [![GitHub stars](https://img.shields.io/github/stars/optuna/optuna?style=social&color=white)](https://github.com/optuna/optuna/stargazers)
+* **[optuna/optuna](https://github.com/optuna/optuna)** [![GitHub_Stars](https://img.shields.io/github/stars/optuna/optuna?style=social&color=white)](https://github.com/optuna/optuna/stargazers)
 
   Hyperparameter optimization framework for tuning fraud risk decision thresholds & model parameters.
 
-* **[marcotcr/lime](https://github.com/marcotcr/lime)** [![GitHub stars](https://img.shields.io/github/stars/marcotcr/lime?style=social&color=white)](https://github.com/marcotcr/lime/stargazers)
+* **[marcotcr/lime](https://github.com/marcotcr/lime)** [![GitHub_Stars](https://img.shields.io/github/stars/marcotcr/lime?style=social&color=white)](https://github.com/marcotcr/lime/stargazers)
 
   Explainable AI framework for local explanations of complex fraud model predictions.
 
-* **[yzhao062/pyod](https://github.com/yzhao062/pyod)** [![GitHub stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers)
+* **[yzhao062/pyod](https://github.com/yzhao062/pyod)** [![GitHub_Stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers)
 
   Python anomaly detection toolkit with 60+ algorithms for unusual payment, session & merchant behavior.
 
-* **[catboost/catboost](https://github.com/catboost/catboost)** [![GitHub stars](https://img.shields.io/github/stars/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)
+* **[catboost/catboost](https://github.com/catboost/catboost)** [![GitHub_Stars](https://img.shields.io/github/stars/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)
 
   Gradient boosting library tailored for categorical heavy merchant, user, device & IP signals.
 
-* **[evidentlyai/evidently](https://github.com/evidentlyai/evidently)** [![GitHub stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)
+* **[evidentlyai/evidently](https://github.com/evidentlyai/evidently)** [![GitHub_Stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)
 
   ML observability framework for evaluating data drift, model performance degradation & feature anomalies.
 
-* **[online-ml/river](https://github.com/online-ml/river)** [![GitHub stars](https://img.shields.io/github/stars/online-ml/river?style=social&color=white)](https://github.com/online-ml/river/stargazers)
+* **[online-ml/river](https://github.com/online-ml/river)** [![GitHub_Stars](https://img.shields.io/github/stars/online-ml/river?style=social&color=white)](https://github.com/online-ml/river/stargazers)
 
   Streaming online machine learning framework for continuously updating real-time fraud models.
 
-* **[SeldonIO/alibi-detect](https://github.com/SeldonIO/alibi-detect)** [![GitHub stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers)
+* **[SeldonIO/alibi-detect](https://github.com/SeldonIO/alibi-detect)** [![GitHub_Stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers)
 
   Algorithms for outlier, adversarial, concept drift & distribution-shift detection in production fraud pipelines.
 
 ### ⚡ Feature Stores & Real-Time Risk Features
 
-* **[redis/redis](https://github.com/redis/redis)** [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
+* **[redis/redis](https://github.com/redis/redis)** [![GitHub_Stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
 
   Ultra-low-latency in-memory data store for velocity counters, session state & real-time risk features.
 
-* **[dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly)** [![GitHub stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=social&color=white)](https://github.com/dragonflydb/dragonfly/stargazers)
+* **[dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly)** [![GitHub_Stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=social&color=white)](https://github.com/dragonflydb/dragonfly/stargazers)
 
   High-throughput Redis-compatible in-memory store for real-time risk aggregations.
 
-* **[apache/cassandra](https://github.com/apache/cassandra)** [![GitHub stars](https://img.shields.io/github/stars/apache/cassandra?style=social&color=white)](https://github.com/apache/cassandra/stargazers)
+* **[apache/cassandra](https://github.com/apache/cassandra)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/cassandra?style=social&color=white)](https://github.com/apache/cassandra/stargazers)
 
   Distributed NoSQL database built for high-volume transaction history & behavioral event streams.
 
-* **[feast-dev/feast](https://github.com/feast-dev/feast)** [![GitHub stars](https://img.shields.io/github/stars/feast-dev/feast?style=social&color=white)](https://github.com/feast-dev/feast/stargazers)
+* **[feast-dev/feast](https://github.com/feast-dev/feast)** [![GitHub_Stars](https://img.shields.io/github/stars/feast-dev/feast?style=social&color=white)](https://github.com/feast-dev/feast/stargazers)
 
   Open-source feature store for point-in-time correct training & low-latency online fraud feature retrieval.
 
-* **[logicalclocks/hopsworks](https://github.com/logicalclocks/hopsworks)** [![GitHub stars](https://img.shields.io/github/stars/logicalclocks/hopsworks?style=social&color=white)](https://github.com/logicalclocks/hopsworks/stargazers)
+* **[logicalclocks/hopsworks](https://github.com/logicalclocks/hopsworks)** [![GitHub_Stars](https://img.shields.io/github/stars/logicalclocks/hopsworks?style=social&color=white)](https://github.com/logicalclocks/hopsworks/stargazers)
 
   AI data platform with integrated feature store for enterprise fraud feature management.
 
 ### 📱 Device Intelligence & Behavioral Signals
 
-* **[PostHog/posthog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)
+* **[PostHog/posthog](https://github.com/PostHog/posthog)** [![GitHub_Stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)
 
   Product analytics & event tracking engine for capturing behavioral signals and funnel anomalies.
 
-* **[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs)** [![GitHub stars](https://img.shields.io/github/stars/fingerprintjs/fingerprintjs?style=social&color=white)](https://github.com/fingerprintjs/fingerprintjs/stargazers)
+* **[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs)** [![GitHub_Stars](https://img.shields.io/github/stars/fingerprintjs/fingerprintjs?style=social&color=white)](https://github.com/fingerprintjs/fingerprintjs/stargazers)
 
   Browser fingerprinting library for generating client-side device identification signals.
 
-* **[matomo-org/matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)
+* **[matomo-org/matomo](https://github.com/matomo-org/matomo)** [![GitHub_Stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)
 
   Privacy-focused analytics platform for tracking user sessions & suspicious behavior.
 
-* **[openreplay/openreplay](https://github.com/openreplay/openreplay)** [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)
+* **[openreplay/openreplay](https://github.com/openreplay/openreplay)** [![GitHub_Stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)
 
   Session replay and analytics platform for investigating suspicious user journeys & account abuse.
 
-* **[open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
+* **[open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub_Stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
 
   Observability telemetry framework for monitoring transaction processing pipelines.
 
 ### ⚖️ Rules, Policy & Decision Engines
 
-* **[open-policy-agent/opa](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
+* **[open-policy-agent/opa](https://github.com/open-policy-agent/opa)** [![GitHub_Stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
 
   General-purpose policy engine for transparent transaction rules, risk limits & review policies.
 
-* **[j-easy/easy-rules](https://github.com/j-easy/easy-rules)** [![GitHub stars](https://img.shields.io/github/stars/j-easy/easy-rules?style=social&color=white)](https://github.com/j-easy/easy-rules/stargazers)
+* **[j-easy/easy-rules](https://github.com/j-easy/easy-rules)** [![GitHub_Stars](https://img.shields.io/github/stars/j-easy/easy-rules?style=social&color=white)](https://github.com/j-easy/easy-rules/stargazers)
 
   Lightweight Java rules engine for fast risk scoring prototyping.
 
-* **[CacheControl/json-rules-engine](https://github.com/CacheControl/json-rules-engine)** [![GitHub stars](https://img.shields.io/github/stars/CacheControl/json-rules-engine?style=social&color=white)](https://github.com/CacheControl/json-rules-engine/stargazers)
+* **[CacheControl/json-rules-engine](https://github.com/CacheControl/json-rules-engine)** [![GitHub_Stars](https://img.shields.io/github/stars/CacheControl/json-rules-engine?style=social&color=white)](https://github.com/CacheControl/json-rules-engine/stargazers)
 
   JSON-expressed rules engine for client/server risk rule execution.
 
-* **[cedar-policy/cedar](https://github.com/cedar-policy/cedar)** [![GitHub stars](https://img.shields.io/github/stars/cedar-policy/cedar?style=social&color=white)](https://github.com/cedar-policy/cedar/stargazers)
+* **[cedar-policy/cedar](https://github.com/cedar-policy/cedar)** [![GitHub_Stars](https://img.shields.io/github/stars/cedar-policy/cedar?style=social&color=white)](https://github.com/cedar-policy/cedar/stargazers)
 
   Fast expressive policy language and authorization engine for fine-grained risk rules.
 
-* **[NRules/NRules](https://github.com/NRules/NRules)** [![GitHub stars](https://img.shields.io/github/stars/NRules/NRules?style=social&color=white)](https://github.com/NRules/NRules/stargazers)
+* **[NRules/NRules](https://github.com/NRules/NRules)** [![GitHub_Stars](https://img.shields.io/github/stars/NRules/NRules?style=social&color=white)](https://github.com/NRules/NRules/stargazers)
 
   Rete-based rules engine for .NET to execute configurable transaction policies.
 
 ### 🕸️ Graph Analytics & Entity Resolution
 
-* **[pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric)** [![GitHub stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric?style=social&color=white)](https://github.com/pyg-team/pytorch_geometric/stargazers)
+* **[pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric)** [![GitHub_Stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric?style=social&color=white)](https://github.com/pyg-team/pytorch_geometric/stargazers)
 
   Graph neural network framework for fraud ring identification & relationship modeling.
 
-* **[networkx/networkx](https://github.com/networkx/networkx)** [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)
+* **[networkx/networkx](https://github.com/networkx/networkx)** [![GitHub_Stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)
 
   Python graph analysis library for investigating connected components & transaction networks.
 
-* **[neo4j/neo4j](https://github.com/neo4j/neo4j)** [![GitHub stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
+* **[neo4j/neo4j](https://github.com/neo4j/neo4j)** [![GitHub_Stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
 
   Graph database for modeling relationships between cards, IPs, devices, merchants & fraud rings.
 
-* **[dmlc/dgl](https://github.com/dmlc/dgl)** [![GitHub stars](https://img.shields.io/github/stars/dmlc/dgl?style=social&color=white)](https://github.com/dmlc/dgl/stargazers)
+* **[dmlc/dgl](https://github.com/dmlc/dgl)** [![GitHub_Stars](https://img.shields.io/github/stars/dmlc/dgl?style=social&color=white)](https://github.com/dmlc/dgl/stargazers)
 
   Deep graph learning framework for entity risk scoring & graph-based fraud detection.
 
-* **[apache/age](https://github.com/apache/age)** [![GitHub stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers)
+* **[apache/age](https://github.com/apache/age)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers)
 
   PostgreSQL extension providing graph database capabilities for transactional risk analysis.
 
-* **[dedupeio/dedupe](https://github.com/dedupeio/dedupe)** [![GitHub stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers)
+* **[dedupeio/dedupe](https://github.com/dedupeio/dedupe)** [![GitHub_Stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers)
 
   Python library for fuzzy matching, record deduplication & entity resolution across risk datasets.
 
-* **[moj-analytical-services/splink](https://github.com/moj-analytical-services/splink)** [![GitHub stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers)
+* **[moj-analytical-services/splink](https://github.com/moj-analytical-services/splink)** [![GitHub_Stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers)
 
   Probabilistic record linkage framework for customer & merchant entity resolution.
 
-* **[igraph/igraph](https://github.com/igraph/igraph)** [![GitHub stars](https://img.shields.io/github/stars/igraph/igraph?style=social&color=white)](https://github.com/igraph/igraph/stargazers)
+* **[igraph/igraph](https://github.com/igraph/igraph)** [![GitHub_Stars](https://img.shields.io/github/stars/igraph/igraph?style=social&color=white)](https://github.com/igraph/igraph/stargazers)
 
   High-performance C/Python network analysis library for large-scale fraud network detection.
 
 ### 🔎 AML, Transaction Monitoring & Case Management
 
-* **[opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+* **[opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub_Stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
 
   Distributed search & analytics engine for transaction investigation & risk case management.
 
-* **[MISP/MISP](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)
+* **[MISP/MISP](https://github.com/MISP/MISP)** [![GitHub_Stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)
 
   Threat intelligence sharing platform for exchanging fraud indicators & risk signals.
 
-* **[TheHive-Project/TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)
+* **[TheHive-Project/TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)
 
   Security incident & investigation case management platform adaptable to fraud operations.
 
-* **[TheHive-Project/Cortex](https://github.com/TheHive-Project/Cortex)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/Cortex?style=social&color=white)](https://github.com/TheHive-Project/Cortex/stargazers)
+* **[TheHive-Project/Cortex](https://github.com/TheHive-Project/Cortex)** [![GitHub_Stars](https://img.shields.io/github/stars/TheHive-Project/Cortex?style=social&color=white)](https://github.com/TheHive-Project/Cortex/stargazers)
 
   Observable analysis engine for auto-enriching suspicious entities in fraud investigations.
 
-* **[opensanctions/opensanctions](https://github.com/opensanctions/opensanctions)** [![GitHub stars](https://img.shields.io/github/stars/opensanctions/opensanctions?style=social&color=white)](https://github.com/opensanctions/opensanctions/stargazers)
+* **[opensanctions/opensanctions](https://github.com/opensanctions/opensanctions)** [![GitHub_Stars](https://img.shields.io/github/stars/opensanctions/opensanctions?style=social&color=white)](https://github.com/opensanctions/opensanctions/stargazers)
 
   Open database of international sanctions, PEPs & high-risk entities for KYC/AML screening.
 
-* **[mojaloop/mojaloop](https://github.com/mojaloop/mojaloop)** [![GitHub stars](https://img.shields.io/github/stars/mojaloop/mojaloop?style=social&color=white)](https://github.com/mojaloop/mojaloop/stargazers)
+* **[mojaloop/mojaloop](https://github.com/mojaloop/mojaloop)** [![GitHub_Stars](https://img.shields.io/github/stars/mojaloop/mojaloop?style=social&color=white)](https://github.com/mojaloop/mojaloop/stargazers)
 
   Open payment interoperability platform for compliant transaction processing architectures.
 
 ### 🌊 Streaming & Real-Time Infrastructure
 
-* **[apache/spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)
+* **[apache/spark](https://github.com/apache/spark)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)
 
   Unified analytics engine for large-scale offline fraud feature extraction & model training.
 
-* **[apache/kafka](https://github.com/apache/kafka)** [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
+* **[apache/kafka](https://github.com/apache/kafka)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
 
   Distributed event streaming backbone for transaction, login & chargeback event pipelines.
 
-* **[apache/flink](https://github.com/apache/flink)** [![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)
+* **[apache/flink](https://github.com/apache/flink)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)
 
   Stateful stream processing engine for real-time velocity calculations & fraud window aggregations.
 
-* **[temporalio/temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+* **[temporalio/temporal](https://github.com/temporalio/temporal)** [![GitHub_Stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
 
   Durable execution engine for managing complex manual review & chargeback workflows.
 
-* **[nats-io/nats-server](https://github.com/nats-io/nats-server)** [![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)
+* **[nats-io/nats-server](https://github.com/nats-io/nats-server)** [![GitHub_Stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)
 
   Ultra-lightweight messaging system for low-latency risk signal distribution.
 
-* **[apache/pulsar](https://github.com/apache/pulsar)** [![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)
+* **[apache/pulsar](https://github.com/apache/pulsar)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)
 
   Distributed pub-sub messaging system for real-time event-driven risk architectures.
 
-* **[rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server)** [![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)
+* **[rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server)** [![GitHub_Stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)
 
   Message broker for asynchronous fraud workflows, alert routing & case creation.
 
 ### 📊 Search, Analytics & Risk Operations
 
-* **[grafana/grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+* **[grafana/grafana](https://github.com/grafana/grafana)** [![GitHub_Stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
 
   Operational dashboards for monitoring fraud rates, review queues & decision metrics.
 
-* **[apache/superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+* **[apache/superset](https://github.com/apache/superset)** [![GitHub_Stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
 
   Enterprise data exploration platform for building risk decisioning dashboards.
 
-* **[ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)
+* **[ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub_Stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)
 
   Columnar OLAP database for fast analytical queries on massive transaction streams.
 
-* **[metabase/metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
+* **[metabase/metabase](https://github.com/metabase/metabase)** [![GitHub_Stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
 
   Self-hosted BI tool for business analyst reporting on merchant risk metrics.
 
-* **[duckdb/duckdb](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
+* **[duckdb/duckdb](https://github.com/duckdb/duckdb)** [![GitHub_Stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
 
   In-process analytical SQL database for local fraud investigation & model prototyping.
 
-* **[postgres/postgres](https://github.com/postgres/postgres)** [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
+* **[postgres/postgres](https://github.com/postgres/postgres)** [![GitHub_Stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
 
   Relational database foundation for merchant profiles, transaction logs & decision audit trails.
 
 ### 🤖 AI & LLM Infrastructure for Risk Ops
 
-* **[ollama/ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
+* **[ollama/ollama](https://github.com/ollama/ollama)** [![GitHub_Stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
 
   Local LLM runner for private fraud investigation assistants & case summaries.
 
-* **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
+* **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
 
   Framework for developing LLM-powered risk decisioning & investigation tools.
 
-* **[vllm-project/vllm](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
+* **[vllm-project/vllm](https://github.com/vllm-project/vllm)** [![GitHub_Stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
 
   High-throughput LLM inference engine for self-hosted risk analysis services.
 
-* **[BerriAI/litellm](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)
+* **[BerriAI/litellm](https://github.com/BerriAI/litellm)** [![GitHub_Stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)
 
   Unified API gateway for connecting risk applications to 100+ LLM backends.
 
-* **[run-llama/llama_index](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
+* **[run-llama/llama_index](https://github.com/run-llama/llama_index)** [![GitHub_Stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
 
   Data framework for connecting risk documents & transaction histories to LLM agents.
 
-* **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)
+* **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** [![GitHub_Stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)
 
   Stateful agentic framework for complex multi-step fraud investigation workflows.
 
-* **[deepset-ai/haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
+* **[deepset-ai/haystack](https://github.com/deepset-ai/haystack)** [![GitHub_Stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
 
   Open-source RAG framework for querying compliance guidelines & fraud policy bases.
 
