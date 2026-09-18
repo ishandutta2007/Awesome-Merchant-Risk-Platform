@@ -1,2443 +1,438 @@
-# Awesome-Merchant-Risk-Platform
-
-## Top Merchant Risk Platform Ecosystem
-
-
-
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**
-
-*Focused on Merchant Risk, Fraud Prevention, Transaction Monitoring, Identity Risk & Real-Time Decisioning*
-
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS/Hosted platforms** and **open-source projects** for **Merchant Risk Platforms**. These tools help merchants, marketplaces, fintechs, payment providers, and digital businesses detect and prevent payment fraud, account takeover, friendly fraud, chargebacks, bot abuse, identity fraud, transaction laundering, and other forms of financial and digital risk.
-
-
-
-**Examples** include Riskified, Signifyd, Sardine, Sift, Forter, SEON, Unit21, Fraud.net, Feedzai, and Kount.
-
-
-
-Modern merchant-risk platforms typically combine **device intelligence, behavioral analytics, transaction scoring, identity verification, velocity rules, IP intelligence, network intelligence, machine learning, graph analysis, behavioral biometrics, chargeback intelligence, account-takeover detection, bot detection, manual review, case management, and real-time approve/review/decline decisioning**.
-
-
-
-**Open-source emphasis**: This section is heavily expanded with projects for **self-hosted fraud detection, real-time transaction scoring, AML/fraud monitoring, feature stores, rules engines, device fingerprinting, stream processing, graph analytics, case management, explainable ML, risk APIs, and fraud-model development**.
-
-
-
-> **Important distinction:** There are very few mature open-source, drop-in replacements for Riskified, Signifyd, Sift, Forter, or Feedzai. Commercial platforms often rely on proprietary consortium data, device networks, behavioral datasets, merchant feedback loops, proprietary models, and large-scale infrastructure. The open-source ecosystem is therefore best viewed as a collection of **fraud/risk engines and building blocks for constructing a self-hosted merchant-risk platform**.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites or repositories.
-
-
-
-## Table of Contents
-
-
-
-* [SaaS/Hosted Platforms](#saashosted-platforms)
-
-* [Open-Source GitHub Projects](#open-source-github-projects)
-
-* [Open-Source Fraud & Risk Engines](#open-source-fraud--risk-engines)
-
-* [Fraud Detection & Machine Learning](#fraud-detection--machine-learning)
-
-* [Feature Stores & Real-Time Risk Features](#feature-stores--real-time-risk-features)
-
-* [Device Intelligence & Behavioral Signals](#device-intelligence--behavioral-signals)
-
-* [Rules, Policy & Decision Engines](#rules-policy--decision-engines)
-
-* [Graph Analytics & Entity Resolution](#graph-analytics--entity-resolution)
-
-* [AML, Transaction Monitoring & Case Management](#aml-transaction-monitoring--case-management)
-
-* [Streaming & Real-Time Infrastructure](#streaming--real-time-infrastructure)
-
-* [Search, Analytics & Risk Operations](#search-analytics--risk-operations)
-
-* [AI/LLM Infrastructure](#aillm-infrastructure)
-
-* [Recommended Open-Source Merchant Risk Architecture](#recommended-open-source-merchant-risk-architecture)
-
-* [Commercial → Open-Source Mapping](#commercial--open-source-mapping)
-
-* [Open-Source Capability Matrix](#open-source-capability-matrix)
-
-* [Best Open-Source Combinations](#best-open-source-combinations)
-
-* [What Open Source Can and Cannot Replace](#what-open-source-can-and-cannot-replace)
-
-* [How to Contribute](#how-to-contribute)
-
-* [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-* **[Riskified](https://www.riskified.com/)**
-
-  E-commerce risk-management platform providing automated decisions, chargeback protection, account protection, policy protection, and payment optimization using transaction, device, behavioral, and network data.
-
-
-
-* **[Signifyd](https://www.signifyd.com/)**
-
-  Commerce protection platform providing automated fraud decisions, chargeback protection, abuse prevention, and customer-experience optimization.
-
-
-
-* **[Sardine](https://www.sardine.ai/)**
-
-  Fraud prevention and compliance platform combining device intelligence, behavioral analytics, identity, transaction monitoring, and risk decisioning.
-
-
-
-* **[Sift](https://sift.com/)**
-
-  Digital trust and fraud-prevention platform covering payment fraud, account takeover, content abuse, payment abuse, and other stages of the customer journey.
-
-
-
-* **[Forter](https://www.forter.com/)**
-
-  Digital-commerce trust platform providing real-time identity-based decisioning, fraud prevention, account protection, and abuse prevention.
-
-
-
-* **[SEON](https://seon.io/)**
-
-  Fraud-prevention platform combining digital-footprint intelligence, device intelligence, IP/email/phone analysis, transaction monitoring, and risk scoring.
-
-
-
-* **[Unit21](https://www.unit21.ai/)**
-
-  No-code transaction-monitoring and fraud/AML platform supporting configurable rules, risk workflows, case management, and real-time monitoring.
-
-
-
-* **[Fraud.net](https://www.fraud.net/)**
-
-  AI-driven fraud-prevention platform providing real-time transaction risk scoring, behavioral intelligence, rules, analytics, and fraud operations.
-
-
-
-* **[Feedzai](https://feedzai.com/)**
-
-  Enterprise risk-operations platform focused on fraud prevention, financial crime, transaction monitoring, and AI-driven risk decisioning.
-
-
-
-* **[Kount](https://kount.com/)**
-
-  Digital-fraud prevention platform providing identity trust, transaction protection, account protection, and fraud decisioning.
-
-
-
-* **[Ekata](https://ekata.com/)**
-
-  Identity-verification and risk-intelligence platform providing identity attributes and risk signals for fraud prevention.
-
-
-
-* **[Socure](https://www.socure.com/)**
-
-  Digital identity-verification and fraud-prevention platform focused on identity risk, onboarding, account opening, and transaction-related risk.
-
-
-
-* **[LexisNexis Risk Solutions](https://risk.lexisnexis.com/)**
-
-  Broad risk-information ecosystem covering fraud prevention, identity, digital identity intelligence, transaction risk, and financial crime.
-
-
-
-* **[TransUnion TruValidate](https://www.transunion.com/product/truvalidate-fraud-and-identity-solutions)**
-
-  Fraud and identity platform combining identity intelligence, device signals, behavioral information, and transaction-risk controls.
-
-
-
-* **[Experian Fraud & Identity](https://www.experian.com/business/solutions/fraud-and-identity)**
-
-  Identity and fraud-risk technology supporting digital identity, transaction risk, authentication, and fraud prevention.
-
-
-
-* **[DataVisor](https://www.datavisor.com/)**
-
-  AI-driven fraud and risk platform using machine learning, anomaly detection, graph analysis, and risk intelligence.
-
-
-
-* **[BioCatch](https://www.biocatch.com/)**
-
-  Behavioral-biometrics platform analyzing user behavior for fraud and account-takeover detection.
-
-
-
-* **[Arkose Labs](https://www.arkoselabs.com/)**
-
-  Bot and fraud-prevention platform focused on automated abuse, account attacks, credential stuffing, and malicious automation.
-
-
-
-* **[HUMAN](https://www.humansecurity.com/)**
-
-  Digital-security platform covering bot management, fraud, account abuse, and malicious automation.
-
-
-
-* **[Riskified Chargeback Guarantee](https://www.riskified.com/platform-riskified/)**
-
-  Automated e-commerce transaction decisions and chargeback protection.
-
-
-
-* **[Signifyd Commerce Protection](https://www.signifyd.com/products/)**
-
-  Automated commerce-risk decisioning covering payment fraud and customer abuse.
-
-
-
-* **[Sift Digital Trust & Safety](https://sift.com/platform/)**
-
-  Risk decisioning across payment, account, content, and abuse use cases.
-
-
-
-* **[Forter Trust Platform](https://www.forter.com/platform/)**
-
-  Real-time trust decisions using identity and behavioral signals across digital commerce.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-> The projects below are **not all complete merchant-risk platforms**. They are grouped according to their usefulness in constructing a self-hosted risk and fraud-prevention system.
-
->
-
-> The strongest direct open-source options include **Jube, risk-triage, Financial Fraud Risk Engine, and Fraud Detection System**. Projects such as **Feast, FingerprintJS, Open Policy Agent, Apache Flink, Kafka, Redis, Neo4j, OpenSearch, MLflow, and SHAP** provide the infrastructure required to build a much larger production risk platform.
-
-
-
-### Open-Source Fraud & Risk Engines
-
-
-
-* **[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)**
-
-  Open-source AML and fraud-detection platform providing real-time transaction monitoring, rule-based detection, adaptive machine learning, risk scoring, velocity checks, aggregation, sanctions screening, workflow-driven case management, and audit trails.
-
-
-
-  Jube is particularly relevant as one of the more complete open-source projects combining **fraud detection, AML monitoring, rules, ML, risk scoring, and case management**.
-
-
-
-* **[risk-triage](https://github.com/opensyndicate/risk-triage)**
-
-  Open-source payment-risk scoring and fraud-triage library providing transaction signals, weighted risk scoring, reason codes, and approve/review/block-style advisory decisions.
-
-
-
-  It is intentionally a lightweight and explainable risk engine rather than a full commercial fraud platform.
-
-
-
-* **[Financial Fraud Risk Engine](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine)**
-
-  End-to-end fraud-risk workflow demonstrating data pipelines, cost-sensitive ML, threshold optimization, batch scoring, SHAP explainability, reason codes, and an analyst dashboard.
-
-
-
-  Useful primarily as a **reference implementation and development starting point**, rather than a production fraud network.
-
-
-
-* **[Fraud Detection System](https://github.com/OlawumiSalaam/fraud-detection-system)**
-
-  Open-source real-time fraud decisioning example combining a FastAPI API, feature engineering, LightGBM, MLflow, transaction scoring, decision thresholds, audit logging, and Streamlit visualization.
-
-
-
-* **[FraudGuard](https://github.com/atifbashir-ju/FraudGuard)**
-
-  Open-source credit-card fraud detection system providing an end-to-end ML pipeline, REST API, model evaluation, and interactive risk dashboard.
-
-
-
-* **[Fraud Detection Platform](https://github.com/peralivet/fraud-detection-platform)**
-
-  Production-oriented fraud ML project covering calibrated fraud scoring, cost-sensitive thresholds, risk bands, batch scoring, and analyst-oriented outputs.
-
-
-
-### Fraud Detection & Machine Learning
-
-
-
-* **[scikit-learn](https://github.com/scikit-learn/scikit-learn)**
-
-  General-purpose machine-learning toolkit useful for transaction-fraud models, anomaly detection, classification, clustering, and preprocessing.
-
-
-
-* **[XGBoost](https://github.com/dmlc/xgboost)**
-
-  Gradient-boosting framework widely useful for structured transaction-risk models.
-
-
-
-* **[LightGBM](https://github.com/microsoft/LightGBM)**
-
-  Efficient gradient-boosting framework suitable for large-scale fraud-risk models and tabular transaction data.
-
-
-
-* **[CatBoost](https://github.com/catboost/catboost)**
-
-  Gradient-boosting framework particularly useful for categorical-heavy merchant, customer, device, and transaction features.
-
-
-
-* **[PyTorch](https://github.com/pytorch/pytorch)**
-
-  Deep-learning framework useful for behavioral modeling, sequence models, graph models, and advanced fraud detection.
-
-
-
-* **[TensorFlow](https://github.com/tensorflow/tensorflow)**
-
-  Machine-learning framework suitable for large-scale fraud modeling and anomaly detection.
-
-
-
-* **[PyOD](https://github.com/yzhao062/pyod)**
-
-  Open-source anomaly-detection toolkit supporting many algorithms useful for detecting unusual transactions, users, devices, and merchant behavior.
-
-
-
-* **[River](https://github.com/online-ml/river)**
-
-  Online machine-learning framework designed for streaming data and continuously updated models, useful for real-time fraud environments.
-
-
-
-* **[Alibi Detect](https://github.com/SeldonIO/alibi-detect)**
-
-  Open-source outlier, adversarial, drift, and distribution-shift detection library useful for fraud and model-monitoring systems.
-
-
-
-* **[Evidently](https://github.com/evidentlyai/evidently)**
-
-  Open-source ML observability toolkit useful for detecting data drift, prediction drift, model degradation, and feature anomalies.
-
-
-
-* **[MLflow](https://github.com/mlflow/mlflow)**
-
-  Open-source ML lifecycle platform for experiment tracking, model management, evaluation, and deployment workflows.
-
-
-
-* **[Optuna](https://github.com/optuna/optuna)**
-
-  Hyperparameter-optimization framework useful for tuning fraud models and decision thresholds.
-
-
-
-* **[SHAP](https://github.com/shap/shap)**
-
-  Explainable-AI toolkit useful for generating feature-attribution explanations for individual fraud-risk decisions.
-
-
-
-* **[LIME](https://github.com/marcotcr/lime)**
-
-  Explainability toolkit useful for local explanations of individual risk predictions.
-
-
-
-### Feature Stores & Real-Time Risk Features
-
-
-
-* **[Feast](https://github.com/feast-dev/feast)**
-
-  Open-source feature store for managing offline and online ML features. Feast includes a fraud-detection reference architecture demonstrating real-time fraud prediction with point-in-time-correct training data and low-latency online features.
-
-
-
-* **[Hopsworks](https://github.com/logicalclocks/hopsworks)**
-
-  Open-source data and ML platform with feature-store capabilities suitable for fraud-model development.
-
-
-
-* **[Feast Fraud Detection Example](https://docs.feast.dev/)**
-
-  Reference implementation demonstrating real-time fraud prediction, feature computation, backfills, training datasets, and online inference.
-
-
-
-* **[Redis](https://github.com/redis/redis)**
-
-  Low-latency store useful for velocity counters, recent transaction windows, device state, session risk, and real-time feature retrieval.
-
-
-
-* **[Dragonfly](https://github.com/dragonflydb/dragonfly)**
-
-  High-performance Redis-compatible in-memory datastore useful for real-time risk features and counters.
-
-
-
-* **[Apache Cassandra](https://github.com/apache/cassandra)**
-
-  Distributed database suitable for high-volume transaction and behavioral-event workloads.
-
-
-
-### Device Intelligence & Behavioral Signals
-
-
-
-* **[FingerprintJS](https://github.com/fingerprintjs/fingerprintjs)**
-
-  Open-source browser-fingerprinting library useful for generating browser/device signals that can become inputs to a merchant-risk engine.
-
-
-
-* **[OpenReplay](https://github.com/openreplay/openreplay)**
-
-  Open-source session-replay platform useful for investigating suspicious user journeys and behavioral anomalies.
-
-
-
-* **[PostHog](https://github.com/PostHog/posthog)**
-
-  Open-source product analytics platform useful for collecting behavioral events, sessions, funnels, and user activity that can feed fraud/risk analysis.
-
-
-
-* **[Matomo](https://github.com/matomo-org/matomo)**
-
-  Open-source analytics platform useful for self-hosted behavioral analytics and suspicious-session investigation.
-
-
-
-* **[OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector)**
-
-  Open-source observability framework useful for collecting application and transaction telemetry that can support operational risk monitoring.
-
-
-
-> Browser fingerprinting is only one risk signal. A complete device-intelligence platform requires additional signals, reputation data, behavioral history, network intelligence, and model-based decisioning.
-
-
-
-### Rules, Policy & Decision Engines
-
-
-
-* **[Open Policy Agent](https://github.com/open-policy-agent/opa)**
-
-  General-purpose policy engine useful for implementing transparent transaction-risk rules, merchant policies, limits, review conditions, and authorization decisions.
-
-
-
-* **[Cedar](https://github.com/cedar-policy/cedar)**
-
-  Open-source policy language and authorization engine useful for fine-grained risk and operational policies.
-
-
-
-* **[Drools](https://github.com/apache/incubator-kie-drools)**
-
-  Rule engine suitable for complex business rules, transaction policies, risk thresholds, and decision tables.
-
-
-
-* **[Easy Rules](https://github.com/j-easy/easy-rules)**
-
-  Lightweight Java rules engine useful for prototyping fraud decision logic.
-
-
-
-* **[json-rules-engine](https://github.com/CacheControl/json-rules-engine)**
-
-  JavaScript rules engine useful for configurable browser/server-side risk rules.
-
-
-
-* **[NRules](https://github.com/NRules/NRules)**
-
-  .NET rules engine useful for implementing configurable fraud and transaction decisioning.
-
-
-
-* **[OPA](https://github.com/open-policy-agent/opa)** + **[Rego](https://www.openpolicyagent.org/)**
-
-  Particularly useful for separating fraud/risk policies from application code.
-
-
-
-### Graph Analytics & Entity Resolution
-
-
-
-* **[Neo4j Community Edition](https://github.com/neo4j/neo4j)**
-
-  Graph database useful for modeling relationships among customers, cards, devices, IP addresses, merchants, emails, shipping addresses, accounts, and transactions.
-
-
-
-* **[NetworkX](https://github.com/networkx/networkx)**
-
-  Python graph-analysis library useful for fraud rings, transaction networks, connected components, and relationship analysis.
-
-
-
-* **[igraph](https://github.com/igraph/igraph)**
-
-  High-performance graph-analysis library suitable for large-scale fraud-network analysis.
-
-
-
-* **[Apache AGE](https://github.com/apache/age)**
-
-  Graph database extension for PostgreSQL, useful for combining graph relationships with transactional data.
-
-
-
-* **[DGL](https://github.com/dmlc/dgl)**
-
-  Deep graph-learning framework useful for graph-based fraud detection and entity-risk modeling.
-
-
-
-* **[PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric)**
-
-  Graph-neural-network framework suitable for fraud-ring detection, entity-risk scoring, and relationship modeling.
-
-
-
-* **[Splink](https://github.com/moj-analytical-services/splink)**
-
-  Probabilistic record-linkage framework useful for entity resolution across customer, account, merchant, device, and transaction datasets.
-
-
-
-* **[dedupe](https://github.com/dedupeio/dedupe)**
-
-  Open-source entity-resolution and record-linkage library useful for connecting potentially identical customer or merchant identities.
-
-
-
-### AML, Transaction Monitoring & Case Management
-
-
-
-* **[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)**
-
-  Particularly strong open-source option for combining fraud detection, AML transaction monitoring, risk scoring, rules, workflows, and case management.
-
-
-
-* **[Mojaloop](https://github.com/mojaloop/mojaloop)**
-
-  Open payment-interoperability ecosystem useful for payment transaction infrastructure and transaction-monitoring architectures.
-
-
-
-* **[OpenSanctions](https://github.com/opensanctions/opensanctions)**
-
-  Open-source/open-data ecosystem for sanctions, politically exposed persons, and other compliance datasets.
-
-
-
-* **[OpenSanctions Dataset](https://www.opensanctions.org/)**
-
-  Structured entity data useful as one component of AML/KYC and risk-screening workflows.
-
-
-
-* **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**
-
-  Search and analytics engine suitable for transaction investigation, case review, alert investigation, and risk operations.
-
-
-
-* **[TheHive](https://github.com/TheHive-Project/TheHive)**
-
-  Open-source security incident/case-management platform whose workflow concepts can be adapted to fraud-investigation case management.
-
-
-
-* **[Cortex](https://github.com/TheHive-Project/Cortex)**
-
-  Observable-analysis and automation engine useful for enriching suspicious entities and investigations.
-
-
-
-* **[MISP](https://github.com/MISP/MISP)**
-
-  Open-source threat-information sharing platform useful for sharing indicators and intelligence that may complement fraud-risk investigations.
-
-
-
-### Streaming & Real-Time Infrastructure
-
-
-
-* **[Apache Kafka](https://github.com/apache/kafka)**
-
-  Distributed event-streaming backbone for transactions, authentication events, device events, chargebacks, login events, and fraud signals.
-
-
-
-* **[Apache Flink](https://github.com/apache/flink)**
-
-  Stream-processing engine suitable for real-time velocity checks, aggregations, anomaly detection, feature computation, and risk-event processing.
-
-
-
-* **[Apache Spark](https://github.com/apache/spark)**
-
-  Large-scale data-processing framework useful for offline fraud-model training and historical transaction analysis.
-
-
-
-* **[Apache Pulsar](https://github.com/apache/pulsar)**
-
-  Distributed event-streaming platform suitable for high-volume risk-event pipelines.
-
-
-
-* **[NATS](https://github.com/nats-io/nats-server)**
-
-  Lightweight messaging system useful for low-latency fraud-event distribution.
-
-
-
-* **[RabbitMQ](https://github.com/rabbitmq/rabbitmq-server)**
-
-  Message broker useful for asynchronous fraud workflows, case creation, notifications, and enrichment.
-
-
-
-* **[Temporal](https://github.com/temporalio/temporal)**
-
-  Durable workflow engine useful for manual-review workflows, fraud investigations, delayed decisions, chargeback workflows, and long-running risk processes.
-
-
-
-### Search, Analytics & Risk Operations
-
-
-
-* **[OpenSearch](https://github.com/opensearch-project/OpenSearch)**
-
-  Search and analytics engine useful for transaction investigation, risk events, alert search, and fraud operations.
-
-
-
-* **[ClickHouse](https://github.com/ClickHouse/ClickHouse)**
-
-  High-performance analytical database suitable for large transaction histories, risk analytics, merchant profiling, and fraud reporting.
-
-
-
-* **[PostgreSQL](https://github.com/postgres/postgres)**
-
-  Strong transactional database foundation for merchants, customers, transactions, risk decisions, cases, rules, and audit records.
-
-
-
-* **[DuckDB](https://github.com/duckdb/duckdb)**
-
-  Lightweight analytical database useful for fraud-data exploration and model development.
-
-
-
-* **[Grafana](https://github.com/grafana/grafana)**
-
-  Dashboards for transaction-risk KPIs, fraud rates, review queues, model performance, and operational monitoring.
-
-
-
-* **[Metabase](https://github.com/metabase/metabase)**
-
-  Self-hosted BI platform useful for merchant-risk reporting and fraud analytics.
-
-
-
-* **[Apache Superset](https://github.com/apache/superset)**
-
-  Open-source BI platform for risk and fraud dashboards.
-
-
-
-### AI/LLM Infrastructure
-
-
-
-* **[Ollama](https://github.com/ollama/ollama)**
-
-  Local LLM runtime useful for fraud-investigation assistants, case summarization, analyst explanations, and suspicious-activity analysis.
-
-
-
-* **[vLLM](https://github.com/vllm-project/vllm)**
-
-  High-performance LLM inference engine for self-hosted risk-analysis services.
-
-
-
-* **[LlamaIndex](https://github.com/run-llama/llama_index)**
-
-  RAG framework useful for querying transaction histories, investigation notes, policies, and risk documentation.
-
-
-
-* **[LangChain](https://github.com/langchain-ai/langchain)**
-
-  Framework for building risk-analysis workflows and investigation assistants.
-
-
-
-* **[LangGraph](https://github.com/langchain-ai/langgraph)**
-
-  Useful for stateful fraud-investigation agents and human-in-the-loop workflows.
-
-
-
-* **[Haystack](https://github.com/deepset-ai/haystack)**
-
-  Open-source RAG and search framework useful for investigation knowledge bases.
-
-
-
-* **[LiteLLM](https://github.com/BerriAI/litellm)**
-
-  Unified LLM interface useful for connecting risk applications to multiple local or hosted models.
-
-
-
-## Additional Strong Open-Source Options
-
-
-
-* **[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)** for an open-source AML and fraud-monitoring platform.
-
-* **[risk-triage](https://github.com/opensyndicate/risk-triage)** for transparent transaction-risk scoring and fraud triage.
-
-* **[Financial Fraud Risk Engine](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine)** for cost-sensitive fraud scoring and explainability.
-
-* **[Fraud Detection System](https://github.com/OlawumiSalaam/fraud-detection-system)** for a FastAPI/LightGBM real-time decisioning reference implementation.
-
-* **[FraudGuard](https://github.com/atifbashir-ju/FraudGuard)** for an end-to-end credit-card fraud detection example.
-
-* **[Feast](https://github.com/feast-dev/feast)** for online/offline fraud features and real-time model serving.
-
-* **[FingerprintJS](https://github.com/fingerprintjs/fingerprintjs)** for browser/device signals.
-
-* **[Open Policy Agent](https://github.com/open-policy-agent/opa)** for configurable risk and policy rules.
-
-* **[Apache Flink](https://github.com/apache/flink)** for real-time transaction feature computation.
-
-* **[Kafka](https://github.com/apache/kafka)** for fraud-event streaming.
-
-* **[Redis](https://github.com/redis/redis)** for velocity counters and online features.
-
-* **[Neo4j](https://github.com/neo4j/neo4j)** for fraud-network and entity-relationship analysis.
-
-* **[Splink](https://github.com/moj-analytical-services/splink)** for customer/entity resolution.
-
-* **[PyTorch Geometric](https://github.com/pyg-team/pytorch_geometric)** for graph-based fraud models.
-
-* **[PyOD](https://github.com/yzhao062/pyod)** for anomaly detection.
-
-* **[River](https://github.com/online-ml/river)** for online/streaming machine learning.
-
-* **[Evidently](https://github.com/evidentlyai/evidently)** for model and data-drift monitoring.
-
-* **[MLflow](https://github.com/mlflow/mlflow)** for fraud-model lifecycle management.
-
-* **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** for fraud investigation and risk operations.
-
-* **[ClickHouse](https://github.com/ClickHouse/ClickHouse)** for large-scale fraud analytics.
-
-* **[OpenSanctions](https://github.com/opensanctions/opensanctions)** for sanctions/PEP data integration.
-
-* **[Ollama](https://github.com/ollama/ollama)** for private AI investigation assistants.
-
-
-
-**Frameworks for building custom systems**: Combine **Jube + Feast + FingerprintJS + Open Policy Agent + Kafka + Flink + Redis + PostgreSQL + Neo4j + OpenSearch + MLflow** to construct a self-hosted merchant-risk platform with real-time scoring, rules, behavioral signals, graph analysis, case investigation, and machine-learning capabilities.
-
-
-
-## Recommended Open-Source Merchant Risk Architecture
-
-
-
-```text
-
-┌──────────────────────────────────────────────────────────────────────┐
-
-│                         CUSTOMER / USER                              │
-
-│                                                                      │
-
-│  Web │ Mobile │ Checkout │ Login │ Signup │ Marketplace │ API        │
-
-└──────────────────────────────┬───────────────────────────────────────┘
-
-                               │
-
-                               ▼
-
-┌──────────────────────────────────────────────────────────────────────┐
-
-│                     SIGNAL COLLECTION LAYER                          │
-
-│                                                                      │
-
-│ Device │ Browser │ IP │ Geo │ Account │ Payment │ Behavior │ Session │
-
-│                                                                      │
-
-│ FingerprintJS │ OpenTelemetry │ Application Events                  │
-
-└──────────────────────────────┬───────────────────────────────────────┘
-
-                               │
-
-                               ▼
-
-┌──────────────────────────────────────────────────────────────────────┐
-
-│                       EVENT STREAM                                   │
-
-│                                                                      │
-
-│ Kafka │ Flink │ Pulsar │ NATS │ Redis                                │
-
-└──────────────────────────────┬───────────────────────────────────────┘
-
-                               │
-
-                ┌──────────────┼────────────────┐
-
-                ▼              ▼                ▼
-
-        ┌──────────────┐ ┌─────────────┐ ┌──────────────┐
-
-        │ Online       │ │ Historical  │ │ Entity /     │
-
-        │ Features     │ │ Data        │ │ Graph        │
-
-        │ Feast/Redis  │ │ PostgreSQL  │ │ Neo4j        │
-
-        └──────┬───────┘ └──────┬──────┘ └──────┬───────┘
-
-               │                │                │
-
-               └────────────────┼────────────────┘
-
-                                ▼
-
-                    ┌────────────────────────┐
-
-                    │     RISK ENGINE        │
-
-                    │                        │
-
-                    │ Rules + ML + Graph     │
-
-                    │ Velocity + Anomaly     │
-
-                    │ Device + Behavioral    │
-
-                    └────────────┬───────────┘
-
-                                 │
-
-                                 ▼
-
-                    ┌────────────────────────┐
-
-                    │ DECISION ENGINE        │
-
-                    │                        │
-
-                    │ APPROVE                │
-
-                    │ REVIEW                 │
-
-                    │ CHALLENGE              │
-
-                    │ DECLINE                │
-
-                    └────────────┬───────────┘
-
-                                 │
-
-                 ┌───────────────┼────────────────┐
-
-                 ▼               ▼                ▼
-
-          ┌────────────┐  ┌─────────────┐  ┌──────────────┐
-
-          │ Payment    │  │ Manual      │  │ Case         │
-
-          │ Gateway    │  │ Review      │  │ Management   │
-
-          └────────────┘  └─────────────┘  └──────────────┘
-
-                                 │
-
-                                 ▼
-
-                       ┌───────────────────┐
-
-                       │ Feedback Loop     │
-
-                       │                   │
-
-                       │ Chargebacks       │
-
-                       │ Fraud Labels      │
-
-                       │ Analyst Decisions │
-
-                       └─────────┬─────────┘
-
-                                 │
-
-                                 ▼
-
-                       ┌───────────────────┐
-
-                       │ Model Training    │
-
-                       │ MLflow + Python   │
-
-                       └───────────────────┘
-
-```
-
-
-
-## Commercial → Open-Source Mapping
-
-
-
-| Commercial Platform                | Open-Source Building-Block Strategy                                   |
-
-| ---------------------------------- | --------------------------------------------------------------------- |
-
-| **Riskified**                      | Jube + Feast + FingerprintJS + Flink + ML models + case management    |
-
-| **Signifyd**                       | Risk engine + transaction features + rules + ML + chargeback feedback |
-
-| **Sardine**                        | FingerprintJS + Feast + Jube + Flink + behavioral analytics           |
-
-| **Sift**                           | Kafka + Feast + ML + graph analytics + OpenSearch + decision engine   |
-
-| **Forter**                         | Device/identity signals + graph engine + ML + real-time decisioning   |
-
-| **SEON**                           | FingerprintJS + IP/device/email/phone signals + rules + ML            |
-
-| **Unit21**                         | Jube + OPA + PostgreSQL + workflow/case management                    |
-
-| **Fraud.net**                      | Kafka + Flink + Feast + MLflow + ML models + risk API                 |
-
-| **Feedzai**                        | Kafka + Flink + Feast + ML + OPA + graph analytics                    |
-
-| **Kount**                          | FingerprintJS + graph analysis + ML + rules + transaction decisioning |
-
-| **Ekata-style identity risk**      | Entity resolution + graph analytics + identity signals + ML           |
-
-| **BioCatch-style behavioral risk** | Event collection + sequence models + anomaly detection                |
-
-| **Arkose-style abuse prevention**  | Behavioral signals + rate limiting + challenge workflows + ML         |
-
-| **Custom Merchant Risk Platform**  | Jube + Feast + Kafka + Flink + Redis + Neo4j + OpenSearch             |
-
-
-
-> These mappings are **architectural equivalents, not drop-in replacements**. Commercial risk platforms often possess proprietary global data networks, device graphs, consortium intelligence, merchant feedback, chargeback data, proprietary models, and operational infrastructure that cannot be recreated simply by installing open-source components.
-
-
-
-## Open-Source Merchant Risk Capability Matrix
-
-
-
-| Capability               | Jube | Risk-Triage | Feast | FingerprintJS | OPA | Flink | Neo4j | OpenSearch |
-
-| ------------------------ | ---: | ----------: | ----: | ------------: | --: | ----: | ----: | ---------: |
-
-| Transaction Risk Scoring |    ✅ |           ✅ |    ⚠️ |             ❌ |  ⚠️ |    ⚠️ |    ⚠️ |          ❌ |
-
-| Fraud Rules              |    ✅ |           ✅ |     ❌ |             ❌ |   ✅ |    ⚠️ |     ❌ |         ⚠️ |
-
-| Machine Learning         |    ✅ |          ⚠️ |    ⚠️ |             ❌ |   ❌ |    ⚠️ |    ⚠️ |          ❌ |
-
-| Real-Time Features       |    ✅ |          ⚠️ |     ✅ |            ⚠️ |  ⚠️ |     ✅ |    ⚠️ |         ⚠️ |
-
-| Velocity Checks          |    ✅ |           ✅ |    ⚠️ |             ❌ |  ⚠️ |     ✅ |     ❌ |         ⚠️ |
-
-| Device Signals           |   ⚠️ |          ⚠️ |    ⚠️ |             ✅ |   ❌ |    ⚠️ |    ⚠️ |          ❌ |
-
-| Behavioral Analytics     |   ⚠️ |          ⚠️ |    ⚠️ |            ⚠️ |   ❌ |     ✅ |    ⚠️ |         ⚠️ |
-
-| Graph Fraud Detection    |   ⚠️ |           ❌ |     ❌ |             ❌ |   ❌ |    ⚠️ |     ✅ |         ⚠️ |
-
-| Case Management          |    ✅ |           ❌ |     ❌ |             ❌ |   ❌ |     ❌ |     ❌ |         ⚠️ |
-
-| AML Monitoring           |    ✅ |           ❌ |     ❌ |             ❌ |   ❌ |    ⚠️ |    ⚠️ |         ⚠️ |
-
-| Sanctions Screening      |    ✅ |           ❌ |     ❌ |             ❌ |  ⚠️ |    ⚠️ |     ❌ |         ⚠️ |
-
-| Explainability           |    ✅ |           ✅ |     ❌ |             ❌ |  ⚠️ |    ⚠️ |    ⚠️ |         ⚠️ |
-
-| Audit Trail              |    ✅ |          ⚠️ |    ⚠️ |             ❌ |  ⚠️ |     ✅ |    ⚠️ |          ✅ |
-
-| Self-Hosted              |    ✅ |           ✅ |     ✅ |             ✅ |   ✅ |     ✅ |     ✅ |          ✅ |
-
-
-
-> `⚠️` indicates that the capability requires customization, another component, or external data.
-
-
-
-## Best Open-Source Combinations
-
-
-
-### Open Transaction Fraud Engine
-
-
-
-```text
-
-Jube
-
- +
-
-PostgreSQL
-
- +
-
-Redis
-
- +
-
-Kafka
-
- +
-
-Flink
-
-```
-
-
-
-Useful for:
-
-
-
-* Transaction monitoring
-
-* Velocity rules
-
-* Risk scoring
-
-* Fraud alerts
-
-* Real-time decisioning
-
-* Audit trails
-
-
-
-### Modern ML-Based Merchant Risk Platform
-
-
-
-```text
-
-Kafka
-
-   ↓
-
-Flink
-
-   ↓
-
-Feast
-
-   ↓
-
-ML Model
-
-   ↓
-
-Risk Engine
-
-   ↓
-
-OPA
-
-   ↓
-
-APPROVE / REVIEW / CHALLENGE / DECLINE
-
-```
-
-
-
-Useful for:
-
-
-
-* High-volume payments
-
-* Real-time scoring
-
-* Online feature retrieval
-
-* ML-driven risk decisions
-
-* Configurable policies
-
-
-
-### Device + Behavioral Risk
-
-
-
-```text
-
-Browser / Mobile
-
-       ↓
-
-FingerprintJS
-
-       ↓
-
-Behavioral Events
-
-       ↓
-
-Kafka
-
-       ↓
-
-Redis / Feast
-
-       ↓
-
-Risk Model
-
-       ↓
-
-Decision Engine
-
-```
-
-
-
-Potential signals include:
-
-
-
-* Device identity
-
-* New device
-
-* Device reuse
-
-* Browser characteristics
-
-* Session velocity
-
-* Login velocity
-
-* IP/geo mismatch
-
-* Behavioral anomalies
-
-* Account age
-
-* Transaction history
-
-
-
-### Graph-Based Fraud Detection
-
-
-
-```text
-
-Customer
-
-   │
-
-   ├── Email
-
-   ├── Phone
-
-   ├── Device
-
-   ├── IP
-
-   ├── Card
-
-   ├── Address
-
-   ├── Merchant
-
-   └── Transaction
-
-          │
-
-          ▼
-
-       Neo4j
-
-          │
-
-          ▼
-
-  Connected Entity Analysis
-
-          │
-
-          ▼
-
-     Fraud Ring Score
-
-```
-
-
-
-Useful for identifying:
-
-
-
-* Shared devices
-
-* Shared IP addresses
-
-* Synthetic identities
-
-* Account clusters
-
-* Card-sharing patterns
-
-* Address reuse
-
-* Merchant/customer networks
-
-* Fraud rings
-
-
-
-### Merchant Risk Operations
-
-
-
-```text
-
-Transaction
-
-     ↓
-
-Risk Score
-
-     ↓
-
-┌─────────────────────────────┐
-
-│                             │
-
-│ APPROVE                     │
-
-│                             │
-
-│ CHALLENGE                   │
-
-│                             │
-
-│ MANUAL REVIEW               │
-
-│                             │
-
-│ DECLINE                     │
-
-│                             │
-
-└──────────────┬──────────────┘
-
-               ↓
-
-          Case Queue
-
-               ↓
-
-        Analyst Review
-
-               ↓
-
-      Decision + Reason
-
-               ↓
-
-         Feedback Label
-
-               ↓
-
-        Model Retraining
-
-```
-
-
-
-## Key Open-Source Components by Function
-
-
-
-| Function                          | Recommended Projects        |
-
-| --------------------------------- | --------------------------- |
-
-| Complete fraud/AML engine         | Jube                        |
-
-| Transaction-risk scoring          | risk-triage                 |
-
-| Fraud ML reference implementation | Financial Fraud Risk Engine |
-
-| Real-time fraud API               | Fraud Detection System      |
-
-| Feature store                     | Feast                       |
-
-| Device fingerprinting             | FingerprintJS               |
-
-| Rules engine                      | OPA / Drools                |
-
-| Streaming                         | Kafka / Flink               |
-
-| Online features                   | Redis / Feast               |
-
-| Graph fraud                       | Neo4j / PyTorch Geometric   |
-
-| Entity resolution                 | Splink / dedupe             |
-
-| Anomaly detection                 | PyOD                        |
-
-| Online ML                         | River                       |
-
-| Model monitoring                  | Evidently                   |
-
-| Model lifecycle                   | MLflow                      |
-
-| Explainability                    | SHAP                        |
-
-| AML / transaction monitoring      | Jube                        |
-
-| Sanctions data                    | OpenSanctions               |
-
-| Search/investigation              | OpenSearch                  |
-
-| Analytics                         | ClickHouse                  |
-
-| Dashboards                        | Grafana / Metabase          |
-
-| Workflow                          | Temporal                    |
-
-| Local AI                          | Ollama                      |
-
-| Risk-policy engine                | OPA                         |
-
-| Identity/access                   | Keycloak / Authentik        |
-
-
-
-## Real-Time Merchant Risk Flow
-
-
-
-```text
-
-                         TRANSACTION
-
-                              │
-
-                              ▼
-
-                    ┌─────────────────┐
-
-                    │ Signal Capture  │
-
-                    └────────┬────────┘
-
-                             │
-
-         ┌───────────────────┼────────────────────┐
-
-         ▼                   ▼                    ▼
-
-      Device              Customer             Payment
-
-      Signals             History              Signals
-
-         │                   │                    │
-
-         └───────────────────┼────────────────────┘
-
-                             ▼
-
-                          Kafka
-
-                             │
-
-                             ▼
-
-                          Flink
-
-                             │
-
-              ┌──────────────┼──────────────┐
-
-              ▼              ▼              ▼
-
-            Redis          Feast          Neo4j
-
-              │              │              │
-
-              └──────────────┼──────────────┘
-
-                             ▼
-
-                    ┌─────────────────┐
-
-                    │ Risk Model      │
-
-                    │ ML / Rules      │
-
-                    │ Graph Score     │
-
-                    └────────┬────────┘
-
-                             │
-
-                             ▼
-
-                    ┌─────────────────┐
-
-                    │ Decision Engine │
-
-                    └────────┬────────┘
-
-                             │
-
-             ┌───────────────┼────────────────┐
-
-             ▼               ▼                ▼
-
-          APPROVE          REVIEW           DECLINE
-
-             │               │                │
-
-             │               ▼                │
-
-             │        Analyst / Case          │
-
-             │        Management              │
-
-             │               │                │
-
-             └───────────────┼────────────────┘
-
-                             ▼
-
-                       Outcome Data
-
-                             │
-
-                             ▼
-
-                     Model Feedback
-
-```
-
-
-
-## Fraud Model Development Pipeline
-
-
-
-```text
-
-Historical Transactions
-
-          ↓
-
-Fraud / Chargeback Labels
-
-          ↓
-
-Data Cleaning
-
-          ↓
-
-Feature Engineering
-
-          ↓
-
-Point-in-Time Correct Features
-
-          ↓
-
-Train / Validation / Test
-
-          ↓
-
-Model Training
-
-          ↓
-
-Calibration
-
-          ↓
-
-Threshold Optimization
-
-          ↓
-
-Explainability
-
-          ↓
-
-Shadow Deployment
-
-          ↓
-
-A/B / Champion-Challenger
-
-          ↓
-
-Production
-
-          ↓
-
-Drift Monitoring
-
-          ↓
-
-Retraining
-
-```
-
-
-
-## Risk Signals
-
-
-
-A self-hosted merchant-risk engine can combine:
-
-
-
-### Transaction
-
-
-
-* Amount
-
-* Currency
-
-* Merchant category
-
-* Payment method
-
-* Transaction frequency
-
-* Historical spending
-
-* Refund history
-
-* Chargeback history
-
-
-
-### Customer
-
-
-
-* Account age
-
-* Login history
-
-* Purchase history
-
-* Failed-payment history
-
-* Previous disputes
-
-* Email reputation
-
-* Phone reputation
-
-
-
-### Device
-
-
-
-* Device ID
-
-* Browser fingerprint
-
-* Device age
-
-* Device reuse
-
-* Emulator indicators
-
-* Root/jailbreak indicators
-
-* Session characteristics
-
-
-
-### Network
-
-
-
-* IP address
-
-* ASN
-
-* Proxy indicators
-
-* VPN indicators
-
-* Geographic consistency
-
-* IP velocity
-
-
-
-### Behavioral
-
-
-
-* Mouse/touch behavior
-
-* Typing patterns
-
-* Navigation patterns
-
-* Session duration
-
-* Checkout velocity
-
-* Bot-like activity
-
-
-
-### Relationship
-
-
-
-* Shared device
-
-* Shared IP
-
-* Shared email
-
-* Shared phone
-
-* Shared payment instrument
-
-* Shared shipping address
-
-* Shared merchant relationships
-
-
-
-## What Open Source Can Replace
-
-
-
-Open-source software can provide much of the **technical infrastructure** surrounding merchant-risk systems, including:
-
-
-
-* Transaction-risk scoring
-
-* Fraud rules
-
-* Velocity checks
-
-* Anomaly detection
-
-* Machine-learning models
-
-* Feature stores
-
-* Real-time feature retrieval
-
-* Device/browser signals
-
-* Behavioral-event collection
-
-* Graph analysis
-
-* Entity resolution
-
-* Risk APIs
-
-* Decision engines
-
-* Case-management workflows
-
-* Investigation search
-
-* Model monitoring
-
-* Explainability
-
-* Risk dashboards
-
-* Transaction streaming
-
-* Fraud-model training
-
-* AML transaction monitoring
-
-* Sanctions-data integration
-
-* Audit logging
-
-
-
-## What Open Source Cannot Automatically Replace
-
-
-
-Open-source software alone does **not** automatically provide:
-
-
-
-* Global merchant fraud consortium data
-
-* Global card/device reputation networks
-
-* Proprietary device graphs
-
-* Proprietary identity graphs
-
-* Billions of historical transaction labels
-
-* Proprietary chargeback datasets
-
-* Network-wide fraud intelligence
-
-* Card-network risk intelligence
-
-* Commercial IP reputation databases
-
-* Commercial email/phone reputation databases
-
-* Guaranteed fraud-loss protection
-
-* Chargeback guarantees
-
-* Global fraud-decisioning infrastructure
-
-* Vendor-operated manual review teams
-
-* Proprietary behavioral-biometric networks
-
-* Enterprise fraud SLAs
-
-
-
-This is a major difference between open-source systems and platforms such as Riskified, Signifyd, Sift, Forter, or Feedzai.
-
-
-
-A practical architecture therefore looks like:
-
-
-
-```text
-
-Open-Source Risk Engine
-
-        +
-
-Merchant's Own Transaction Data
-
-        +
-
-Merchant Fraud / Chargeback Feedback
-
-        +
-
-Optional External Intelligence
-
-        +
-
-ML Models
-
-        +
-
-Rules
-
-        +
-
-Graph Analytics
-
-        +
-
-Human Review
-
-```
-
-
-
-## Recommended Technology Stack
-
-
-
-### Core Risk Engine
-
-
-
-```text
-
-Jube
-
-/
-
-Custom Python Risk Engine
-
-```
-
-
-
-### Feature Store
-
-
-
-```text
-
-Feast
-
-+
-
-Redis
-
-```
-
-
-
-### Streaming
-
-
-
-```text
-
-Kafka
-
-+
-
-Flink
-
-```
-
-
-
-### Device Intelligence
-
-
-
-```text
-
-FingerprintJS
-
-+
-
-Application Behavioral Events
-
-```
-
-
-
-### Machine Learning
-
-
-
-```text
-
-LightGBM
-
-+
-
-XGBoost
-
-+
-
-CatBoost
-
-+
-
-PyTorch
-
-```
-
-
-
-### Graph Intelligence
-
-
-
-```text
-
-Neo4j
-
-+
-
-PyTorch Geometric
-
-+
-
-NetworkX
-
-```
-
-
-
-### Decision Policies
-
-
-
-```text
-
-Open Policy Agent
-
-/
-
-Drools
-
-```
-
-
-
-### Model Management
-
-
-
-```text
-
-MLflow
-
-+
-
-Evidently
-
-+
-
-SHAP
-
-```
-
-
-
-### Investigation
-
-
-
-```text
-
-OpenSearch
-
-+
-
-PostgreSQL
-
-+
-
-Grafana
-
-```
-
-
-
-### AI Assistant
-
-
-
-```text
-
-Ollama
-
-+
-
-LlamaIndex
-
-+
-
-LangGraph
-
-```
-
-
-
-## Example Self-Hosted Merchant Risk Stack
-
-
-
-```text
-
-┌──────────────────────────────────────────────────────────────┐
-
-│                    MERCHANT / CHECKOUT                       │
-
-└───────────────────────────┬──────────────────────────────────┘
-
-                            │
-
-                            ▼
-
-┌──────────────────────────────────────────────────────────────┐
-
-│                   SIGNAL COLLECTION                          │
-
-│                                                              │
-
-│ FingerprintJS │ Behavioral Events │ Payment │ Account        │
-
-└───────────────────────────┬──────────────────────────────────┘
-
-                            │
-
-                            ▼
-
-┌──────────────────────────────────────────────────────────────┐
-
-│                 KAFKA / FLINK                                 │
-
-└───────────────────────────┬──────────────────────────────────┘
-
-                            │
-
-              ┌─────────────┼─────────────┐
-
-              ▼             ▼             ▼
-
-           Redis          Feast         Neo4j
-
-              │             │             │
-
-              └─────────────┼─────────────┘
-
-                            ▼
-
-                 ┌───────────────────┐
-
-                 │    Jube / ML      │
-
-                 │                   │
-
-                 │ Rules             │
-
-                 │ ML                │
-
-                 │ Velocity          │
-
-                 │ Graph             │
-
-                 │ Anomaly           │
-
-                 └─────────┬─────────┘
-
-                           │
-
-                           ▼
-
-                 ┌───────────────────┐
-
-                 │       OPA         │
-
-                 │ Decision Policies │
-
-                 └─────────┬─────────┘
-
-                           │
-
-                 ┌─────────┼─────────┐
-
-                 ▼         ▼         ▼
-
-              APPROVE    REVIEW    DECLINE
-
-                           │
-
-                           ▼
-
-                    Case Management
-
-                           │
-
-                           ▼
-
-                    Feedback Labels
-
-                           │
-
-                           ▼
-
-                 MLflow / Retraining
-
-```
-
-
-
-## Open-Source Security & Governance
-
-
-
-A production merchant-risk platform should provide:
-
-
-
-```text
-
-Encryption
-
-+
-
-TLS
-
-+
-
-RBAC
-
-+
-
-SSO
-
-+
-
-MFA
-
-+
-
-Secrets Management
-
-+
-
-Immutable Audit Logs
-
-+
-
-Model Versioning
-
-+
-
-Decision Versioning
-
-+
-
-Rule Versioning
-
-+
-
-Data Retention
-
-+
-
-PII Controls
-
-+
-
-Access Logging
-
-+
-
-Human Review
-
-```
-
-
-
-Potential components include:
-
-
-
-* **[Keycloak](https://github.com/keycloak/keycloak)** — identity and SSO.
-
-* **[Authentik](https://github.com/goauthentik/authentik)** — identity management.
-
-* **[Open Policy Agent](https://github.com/open-policy-agent/opa)** — policy enforcement.
-
-* **[OpenBao](https://github.com/openbao/openbao)** — secrets management.
-
-* **[PostgreSQL](https://github.com/postgres/postgres)** — transactional risk data.
-
-* **[OpenSearch](https://github.com/opensearch-project/OpenSearch)** — investigation and audit search.
-
-* **[OpenTelemetry](https://github.com/open-telemetry/opentelemetry-collector)** — telemetry and observability.
-
-
-
-## Open-Source Maturity
-
-
-
-| Category                          | Maturity |
-
-| --------------------------------- | -------: |
-
-| Fraud ML libraries                |    ⭐⭐⭐⭐⭐ |
-
-| Rules engines                     |    ⭐⭐⭐⭐⭐ |
-
-| Streaming infrastructure          |    ⭐⭐⭐⭐⭐ |
-
-| Feature stores                    |     ⭐⭐⭐⭐ |
-
-| Anomaly detection                 |    ⭐⭐⭐⭐⭐ |
-
-| Device fingerprinting             |     ⭐⭐⭐⭐ |
-
-| Graph databases                   |    ⭐⭐⭐⭐⭐ |
-
-| Entity resolution                 |     ⭐⭐⭐⭐ |
-
-| Fraud research projects           |     ⭐⭐⭐⭐ |
-
-| Real-time fraud engines           |      ⭐⭐⭐ |
-
-| AML transaction monitoring        |      ⭐⭐⭐ |
-
-| Fraud case management             |      ⭐⭐⭐ |
-
-| Merchant-risk platforms           |       ⭐⭐ |
-
-| Open-source Riskified replacement |       ⭐⭐ |
-
-| Open-source Sift replacement      |       ⭐⭐ |
-
-| Open-source Forter replacement    |       ⭐⭐ |
-
-| Open-source Feedzai replacement   |       ⭐⭐ |
-
-
-
-## Best Open-Source Shortlist
-
-
-
-### Best Complete Open-Source Fraud/AML Platform
-
-
-
-**[Jube](https://github.com/jube-home/aml-fraud-transaction-monitoring)**
-
-
-
-Strong candidate when the requirement includes transaction monitoring, fraud detection, ML risk scoring, rules, workflows, and case management in one open-source project.
-
-
-
-### Best Lightweight Risk-Scoring Engine
-
-
-
-**[risk-triage](https://github.com/opensyndicate/risk-triage)**
-
-
-
-Useful for transparent, testable transaction-risk scoring and reason codes.
-
-
-
-### Best Feature Store
-
-
-
-**[Feast](https://github.com/feast-dev/feast)**
-
-
-
-Useful for building low-latency online fraud features and point-in-time-correct training datasets.
-
-
-
-### Best Device Signal Building Block
-
-
-
-**[FingerprintJS](https://github.com/fingerprintjs/fingerprintjs)**
-
-
-
-Useful for collecting browser/device signals that can become inputs to a broader risk engine.
-
-
-
-### Best Rules/Policy Engine
-
-
-
-**[Open Policy Agent](https://github.com/open-policy-agent/opa)**
-
-
-
-Useful for transparent, version-controlled risk policies.
-
-
-
-### Best Graph Foundation
-
-
-
-**[Neo4j](https://github.com/neo4j/neo4j)**
-
-
-
-Useful for connecting customers, devices, IPs, cards, addresses, merchants, and transactions.
-
-
-
-### Best Real-Time Processing
-
-
-
-**[Apache Flink](https://github.com/apache/flink)**
-
-
-
-Useful for real-time velocity calculations, aggregations, behavioral features, and streaming fraud detection.
-
-
-
-### Best Fraud Model Stack
-
-
-
-```text
-
-LightGBM
-
-+
-
-XGBoost
-
-+
-
-CatBoost
-
-+
-
-PyTorch
-
-+
-
-SHAP
-
-+
-
-MLflow
-
-+
-
-Evidently
-
-```
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: project name, official/repository link, 1–2 sentence description, and whether it is SaaS, hosted, open-source, fraud engine, ML library, feature store, rules engine, graph platform, or infrastructure.
-
-4. For open-source projects, include the actual GitHub repository whenever available.
-
-5. Do not describe a generic ML library as a complete merchant-risk platform.
-
-6. Clearly distinguish **production systems**, **research projects**, **reference implementations**, and **building blocks**.
-
-7. Mention important licensing, data, model, privacy, and maturity limitations where relevant.
-
-8. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-* This is a **community-curated** list — not exhaustive and not an endorsement.
-
-* Commercial fraud platforms may possess proprietary transaction networks, device graphs, behavioral datasets, chargeback histories, consortium intelligence, and models that are unavailable in open-source software.
-
-* Most open-source projects listed here are **fraud engines, ML libraries, feature stores, rules engines, graph databases, device-signal libraries, transaction-monitoring systems, or infrastructure components**, rather than complete replacements for Riskified, Signifyd, Sift, Forter, Feedzai, or Kount.
-
-* Fraud models can generate both false positives and false negatives. A risk score should not be treated as proof of fraud.
-
-* Automated decisions involving customers can have significant consequences and should be monitored for accuracy, unintended bias, data-quality problems, and inappropriate denial or escalation.
-
-* Payment fraud systems should comply with applicable privacy, consumer-protection, financial-services, payment-network, data-protection, and security requirements.
-
-* Personal and financial data should be minimized, protected, retained only as necessary, and processed according to applicable law.
-
-* Open-source availability does not automatically mean that a project, model, dataset, or dependency is suitable for commercial production use.
-
-* Always verify current project status, license, model license, dependencies, data sources, security posture, and operational maturity before deployment.
-
-
+# 🛡️ Awesome Merchant Risk Platform
+
+<p align="left">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a><a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square&color=gold" alt="GitHub stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square" alt="GitHub forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Merchant-Risk-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Merchant-Risk-Platform?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+![Awesome Merchant Risk Platform](assets/banner.svg)
 
 ---
 
+## 📌 Executive Overview & Ecosystem Architecture
 
+Welcome to the definitive, curated ecosystem guide for **Merchant Risk Platforms**, **E-Commerce Fraud Prevention Systems**, **Transaction Monitoring Engines**, **Identity Risk Decisioning**, and **AML Compliance Infrastructure**.
 
-**Made for merchants, marketplaces, fintechs, PSPs, payment teams, fraud analysts, risk engineers, AML teams, data scientists, and open-source developers.**
+Modern digital merchants, payment service providers (PSPs), fintechs, and marketplaces operate in an environment of increasing fraud velocity. Building or selecting a merchant risk platform requires orchestrating **device fingerprinting, behavioral biometrics, real-time velocity scoring, graph analytics, machine learning feature stores, policy engines, and case management**.
 
-Let's make merchant risk management more **transparent, explainable, self-hosted, programmable, data-driven, and interoperable**.
+This repository details both **Commercial Hosted SaaS Platforms** and **Production-Grade Open-Source Building Blocks** required to architect end-to-end self-hosted risk engines.
+
+---
+
+## 📑 Table of Contents
+
+- [🏢 Enterprise SaaS & Hosted Platforms](#-enterprise-saas--hosted-platforms)
+- [💻 Open-Source GitHub Repositories (Sorted by Stars)](#-open-source-github-repositories-sorted-by-stars)
+  - [🛡️ Open-Source Fraud & Risk Engines](#️-open-source-fraud--risk-engines)
+  - [🧠 Fraud Detection & Machine Learning](#-fraud-detection--machine-learning)
+  - [⚡ Feature Stores & Real-Time Risk Features](#-feature-stores--real-time-risk-features)
+  - [📱 Device Intelligence & Behavioral Signals](#-device-intelligence--behavioral-signals)
+  - [⚖️ Rules, Policy & Decision Engines](#️-rules-policy--decision-engines)
+  - [🕸️ Graph Analytics & Entity Resolution](#️-graph-analytics--entity-resolution)
+  - [🔎 AML, Transaction Monitoring & Case Management](#-aml-transaction-monitoring--case-management)
+  - [🌊 Streaming & Real-Time Infrastructure](#-streaming--real-time-infrastructure)
+  - [📊 Search, Analytics & Risk Operations](#-search-analytics--risk-operations)
+  - [🤖 AI & LLM Infrastructure for Risk Ops](#-ai--llm-infrastructure-for-risk-ops)
+- [🏗️ Recommended Self-Hosted Risk Architecture](#️-recommended-self-hosted-risk-architecture)
+- [📈 Star History](#-star-history)
+- [💖 Support & Community](#-support--community)
+
+---
+
+## 🏢 Enterprise SaaS & Hosted Platforms
+
+> 📊 **Sector Market Size & Fragmentation Analysis:**
+> The global **E-Commerce Fraud Prevention & Merchant Risk Platform Market** is estimated at **$25.5 Billion in 2026** (projected to reach **$150+ Billion by 2030** at a **15.2% CAGR**). The sector is **moderately fragmented**: while hundreds of niche point solutions exist, top enterprise platforms (LexisNexis, Experian, TransUnion, Socure, Forter, Signifyd, Sift) control over **55% of total market volume** due to proprietary global identity consortiums, chargeback guarantee models, and shared device networks.
+
+| 🏢 Platform | 💡 Key Capabilities & Focus | 💰 Valuation / Revenue Size | 💳 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limit |
+| :--- | :--- | :--- | :--- | :--- |
+| **[LexisNexis Risk Solutions](https://risk.lexisnexis.com/)** | ThreatMetrix digital identity, global device network, transaction risk scoring & sanctions screening. | **~$80.0B Market Cap** *(RELX Parent)* | $0.15 - $0.25 / query ($500/mo min contract) | 14-day sandbox developer trial with test credits |
+| **[Experian Fraud & Identity](https://www.experian.com/business/solutions/fraud-and-identity)** | Identity validation, digital footprinting, step-up authentication & transaction risk scoring. | **~$35.0B Market Cap** | $0.20 / verification ($1,500/mo min spend) | 30-day developer sandbox (200 free API calls) |
+| **[TransUnion TruValidate](https://www.transunion.com/product/truvalidate-fraud-and-identity-solutions)** | Consumer identity verification, device risk signals & automated risk policy controls. | **~$15.0B Market Cap** | $0.15 - $0.30 / check ($1,000/mo min contract) | 30-day developer sandbox (100 free verification checks) |
+| **[Socure](https://www.socure.com/)** | Predictive document verification, synthetic identity fraud prevention & CIP/KYC onboarding. | **~$4.5B Valuation** | $0.25 / verification ($500/mo min spend) | 30-day developer sandbox ($100 free API credit) |
+| **[Forter](https://www.forter.com/)** | Real-time identity decisioning, automated chargeback guarantee & promo/policy abuse protection. | **~$3.0B Valuation** | 0.3% - 0.6% / approved transaction ($1,000/mo min) | 14-day historical data audit & risk assessment trial |
+| **[Signifyd](https://www.signifyd.com/)** | E-commerce commerce protection, payment fraud automation & 100% chargeback financial coverage. | **~$1.34B Valuation** | 0.5% - 1.0% / transaction (guaranteed) or $1,500/mo min | 14-day merchant evaluation trial |
+| **[BioCatch](https://www.biocatch.com/)** | Behavioral biometrics, account takeover (ATO) prevention & continuous session risk profiling. | **~$1.30B Valuation** | $0.05 - $0.15 / active session ($2,000/mo base) | 30-day Proof-of-Concept (PoC) sandbox access |
+| **[Feedzai](https://feedzai.com/)** | Enterprise risk operations, AI AML transaction monitoring & real-time financial crime scoring. | **~$1.00B Valuation** | $25,000 / year starter tier (~$2,083/mo) | 14-day interactive demo PoC environment |
+| **[Sift](https://sift.com/)** | Digital trust platform covering payment fraud, ATO, content abuse & account verification. | **~$1.00B Valuation** | $0.05 / transaction ($500/mo starter plan) | 30-day free trial (up to 10,000 test transactions) |
+| **[Ekata](https://ekata.com/)** | Global identity verification APIs, identity network signals & phone/email risk attributes. | **$850M Acquired** *(Mastercard)* | $0.08 / API query ($300/mo min commitment) | 14-day free trial (up to 500 free API queries) |
+| **[Riskified](https://www.riskified.com/)** | Automated e-commerce payment decisioning, chargeback guarantee & payment approval optimization. | **~$800M Market Cap** *(NYSE: RSKD)* | 0.4% - 0.9% fee per approved transaction | 14-day risk assessment & historical transaction audit |
+| **[Kount](https://kount.com/)** | Identity trust network, AI transaction risk decisioning & automated chargeback management. | **$640M Acquired** *(Equifax)* | $0.07 / transaction ($250/mo starter plan) | 14-day free trial (up to 2,500 transactions) |
+| **[SEON](https://seon.io/)** | Digital footprinting, IP/email/phone analysis, transaction scoring & custom risk rules. | **~$500M Valuation** | $299 / month starter tier (includes 2,000 checks) | Free forever tier (up to 1,000 API checks/mo) |
+| **[Sardine](https://www.sardine.ai/)** | Combined device intelligence, behavioral analytics, crypto/fiat risk & transaction monitoring. | **~$500M Valuation** | $0.10 / transaction ($250/mo base fee) | 14-day sandbox trial (5,000 test API calls) |
+| **[HUMAN](https://www.humansecurity.com/)** | Bot management, credential stuffing defense, account protection & malicious automation blocking. | **~$500M Valuation** | $1,500 / month Bot Defender starter tier | 14-day threat intelligence audit trial |
+| **[Arkose Labs](https://www.arkoselabs.com/)** | Bot mitigation, credential attack defense & enforcement challenges for account security. | **~$400M Valuation** | $2,500 / month enterprise base tier | 14-day bot attack assessment trial |
+| **[DataVisor](https://www.datavisor.com/)** | Unsupervised ML anomaly detection, graph risk analysis & real-time transaction scoring. | **~$300M Valuation** | $1,000 / month cloud starter tier | 14-day free trial (up to 100k events processed) |
+| **[Unit21](https://www.unit21.ai/)** | No-code transaction monitoring, AML compliance rules, case management & risk workflows. | **~$300M Valuation** | $1,200 / month starter subscription | 14-day sandbox access with sample data pipelines |
+| **[Fraud.net](https://www.fraud.net/)** | AI-driven fraud risk scoring, collective network intelligence, rules engine & analyst dashboards. | **~$100M Valuation** | $299 / month starter plan (up to 5,000 trans/mo) | 14-day free trial (1,000 free API calls) |
+
+---
+
+## 💻 Open-Source GitHub Repositories (Sorted by Stars)
+
+> 💡 **Note on Open Source:** While commercial SaaS solutions provide proprietary consortium data, the open-source projects below form the technical building blocks for **building a robust, self-hosted merchant risk engine**.
+
+### 🛡️ Open-Source Fraud & Risk Engines
+
+* **[ballerine-io/ballerine](https://github.com/ballerine-io/ballerine)** [![GitHub stars](https://img.shields.io/github/stars/ballerine-io/ballerine?style=social&color=white)](https://github.com/ballerine-io/ballerine/stargazers)
+
+  Open-source infrastructure and data orchestration platform for merchant risk decisioning, KYC/KYB & compliance workflows.
+
+* **[jube-home/aml-fraud-transaction-monitoring](https://github.com/jube-home/aml-fraud-transaction-monitoring)** [![GitHub stars](https://img.shields.io/github/stars/jube-home/aml-fraud-transaction-monitoring?style=social&color=white)](https://github.com/jube-home/aml-fraud-transaction-monitoring/stargazers)
+
+  Open-source AML & fraud detection platform with real-time transaction monitoring, rules, ML scoring & case management.
+
+* **[AmirhosseinHonardoust/Financial-Fraud-Risk-Engine](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine)** [![GitHub stars](https://img.shields.io/github/stars/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine?style=social&color=white)](https://github.com/AmirhosseinHonardoust/Financial-Fraud-Risk-Engine/stargazers)
+
+  End-to-end fraud risk pipeline featuring cost-sensitive ML, threshold optimization, SHAP explainability & analyst dashboard.
+
+* **[OlawumiSalaam/fraud-detection-system](https://github.com/OlawumiSalaam/fraud-detection-system)** [![GitHub stars](https://img.shields.io/github/stars/OlawumiSalaam/fraud-detection-system?style=social&color=white)](https://github.com/OlawumiSalaam/fraud-detection-system/stargazers)
+
+  FastAPI & LightGBM real-time payment decisioning platform with audit logging & Streamlit visualization.
+
+* **[opensyndicate/risk-triage](https://github.com/opensyndicate/risk-triage)** [![GitHub stars](https://img.shields.io/github/stars/opensyndicate/risk-triage?style=social&color=white)](https://github.com/opensyndicate/risk-triage/stargazers)
+
+  Payment risk scoring & fraud triage library providing weighted transaction signals, reason codes & advisory decisions.
+
+* **[peralivet/fraud-detection-platform](https://github.com/peralivet/fraud-detection-platform)** [![GitHub stars](https://img.shields.io/github/stars/peralivet/fraud-detection-platform?style=social&color=white)](https://github.com/peralivet/fraud-detection-platform/stargazers)
+
+  Calibrated fraud modeling, cost-sensitive thresholding, risk bands & production batch scoring system.
+
+### 🧠 Fraud Detection & Machine Learning
+
+* **[tensorflow/tensorflow](https://github.com/tensorflow/tensorflow)** [![GitHub stars](https://img.shields.io/github/stars/tensorflow/tensorflow?style=social&color=white)](https://github.com/tensorflow/tensorflow/stargazers)
+
+  End-to-end machine learning framework for deep anomaly detection and transaction risk scoring.
+
+* **[pytorch/pytorch](https://github.com/pytorch/pytorch)** [![GitHub stars](https://img.shields.io/github/stars/pytorch/pytorch?style=social&color=white)](https://github.com/pytorch/pytorch/stargazers)
+
+  Deep learning framework for sequence modeling, behavioral biometrics & graph neural network fraud detection.
+
+* **[scikit-learn/scikit-learn](https://github.com/scikit-learn/scikit-learn)** [![GitHub stars](https://img.shields.io/github/stars/scikit-learn/scikit-learn?style=social&color=white)](https://github.com/scikit-learn/scikit-learn/stargazers)
+
+  Machine learning toolkit for transaction classification, clustering, outlier detection & feature preprocessing.
+
+* **[dmlc/xgboost](https://github.com/dmlc/xgboost)** [![GitHub stars](https://img.shields.io/github/stars/dmlc/xgboost?style=social&color=white)](https://github.com/dmlc/xgboost/stargazers)
+
+  Scalable gradient boosting framework optimized for tabular transaction risk models.
+
+* **[mlflow/mlflow](https://github.com/mlflow/mlflow)** [![GitHub stars](https://img.shields.io/github/stars/mlflow/mlflow?style=social&color=white)](https://github.com/mlflow/mlflow/stargazers)
+
+  ML lifecycle platform for experiment tracking, model registry, evaluation & deployment in risk systems.
+
+* **[shap/shap](https://github.com/shap/shap)** [![GitHub stars](https://img.shields.io/github/stars/shap/shap?style=social&color=white)](https://github.com/shap/shap/stargazers)
+
+  Explainable-AI toolkit for feature-attribution explanations on individual transaction risk decisions.
+
+* **[optuna/optuna](https://github.com/optuna/optuna)** [![GitHub stars](https://img.shields.io/github/stars/optuna/optuna?style=social&color=white)](https://github.com/optuna/optuna/stargazers)
+
+  Hyperparameter optimization framework for tuning fraud risk decision thresholds & model parameters.
+
+* **[marcotcr/lime](https://github.com/marcotcr/lime)** [![GitHub stars](https://img.shields.io/github/stars/marcotcr/lime?style=social&color=white)](https://github.com/marcotcr/lime/stargazers)
+
+  Explainable AI framework for local explanations of complex fraud model predictions.
+
+* **[yzhao062/pyod](https://github.com/yzhao062/pyod)** [![GitHub stars](https://img.shields.io/github/stars/yzhao062/pyod?style=social&color=white)](https://github.com/yzhao062/pyod/stargazers)
+
+  Python anomaly detection toolkit with 60+ algorithms for unusual payment, session & merchant behavior.
+
+* **[catboost/catboost](https://github.com/catboost/catboost)** [![GitHub stars](https://img.shields.io/github/stars/catboost/catboost?style=social&color=white)](https://github.com/catboost/catboost/stargazers)
+
+  Gradient boosting library tailored for categorical heavy merchant, user, device & IP signals.
+
+* **[evidentlyai/evidently](https://github.com/evidentlyai/evidently)** [![GitHub stars](https://img.shields.io/github/stars/evidentlyai/evidently?style=social&color=white)](https://github.com/evidentlyai/evidently/stargazers)
+
+  ML observability framework for evaluating data drift, model performance degradation & feature anomalies.
+
+* **[online-ml/river](https://github.com/online-ml/river)** [![GitHub stars](https://img.shields.io/github/stars/online-ml/river?style=social&color=white)](https://github.com/online-ml/river/stargazers)
+
+  Streaming online machine learning framework for continuously updating real-time fraud models.
+
+* **[SeldonIO/alibi-detect](https://github.com/SeldonIO/alibi-detect)** [![GitHub stars](https://img.shields.io/github/stars/SeldonIO/alibi-detect?style=social&color=white)](https://github.com/SeldonIO/alibi-detect/stargazers)
+
+  Algorithms for outlier, adversarial, concept drift & distribution-shift detection in production fraud pipelines.
+
+### ⚡ Feature Stores & Real-Time Risk Features
+
+* **[redis/redis](https://github.com/redis/redis)** [![GitHub stars](https://img.shields.io/github/stars/redis/redis?style=social&color=white)](https://github.com/redis/redis/stargazers)
+
+  Ultra-low-latency in-memory data store for velocity counters, session state & real-time risk features.
+
+* **[dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly)** [![GitHub stars](https://img.shields.io/github/stars/dragonflydb/dragonfly?style=social&color=white)](https://github.com/dragonflydb/dragonfly/stargazers)
+
+  High-throughput Redis-compatible in-memory store for real-time risk aggregations.
+
+* **[apache/cassandra](https://github.com/apache/cassandra)** [![GitHub stars](https://img.shields.io/github/stars/apache/cassandra?style=social&color=white)](https://github.com/apache/cassandra/stargazers)
+
+  Distributed NoSQL database built for high-volume transaction history & behavioral event streams.
+
+* **[feast-dev/feast](https://github.com/feast-dev/feast)** [![GitHub stars](https://img.shields.io/github/stars/feast-dev/feast?style=social&color=white)](https://github.com/feast-dev/feast/stargazers)
+
+  Open-source feature store for point-in-time correct training & low-latency online fraud feature retrieval.
+
+* **[logicalclocks/hopsworks](https://github.com/logicalclocks/hopsworks)** [![GitHub stars](https://img.shields.io/github/stars/logicalclocks/hopsworks?style=social&color=white)](https://github.com/logicalclocks/hopsworks/stargazers)
+
+  AI data platform with integrated feature store for enterprise fraud feature management.
+
+### 📱 Device Intelligence & Behavioral Signals
+
+* **[PostHog/posthog](https://github.com/PostHog/posthog)** [![GitHub stars](https://img.shields.io/github/stars/PostHog/posthog?style=social&color=white)](https://github.com/PostHog/posthog/stargazers)
+
+  Product analytics & event tracking engine for capturing behavioral signals and funnel anomalies.
+
+* **[fingerprintjs/fingerprintjs](https://github.com/fingerprintjs/fingerprintjs)** [![GitHub stars](https://img.shields.io/github/stars/fingerprintjs/fingerprintjs?style=social&color=white)](https://github.com/fingerprintjs/fingerprintjs/stargazers)
+
+  Browser fingerprinting library for generating client-side device identification signals.
+
+* **[matomo-org/matomo](https://github.com/matomo-org/matomo)** [![GitHub stars](https://img.shields.io/github/stars/matomo-org/matomo?style=social&color=white)](https://github.com/matomo-org/matomo/stargazers)
+
+  Privacy-focused analytics platform for tracking user sessions & suspicious behavior.
+
+* **[openreplay/openreplay](https://github.com/openreplay/openreplay)** [![GitHub stars](https://img.shields.io/github/stars/openreplay/openreplay?style=social&color=white)](https://github.com/openreplay/openreplay/stargazers)
+
+  Session replay and analytics platform for investigating suspicious user journeys & account abuse.
+
+* **[open-telemetry/opentelemetry-collector](https://github.com/open-telemetry/opentelemetry-collector)** [![GitHub stars](https://img.shields.io/github/stars/open-telemetry/opentelemetry-collector?style=social&color=white)](https://github.com/open-telemetry/opentelemetry-collector/stargazers)
+
+  Observability telemetry framework for monitoring transaction processing pipelines.
+
+### ⚖️ Rules, Policy & Decision Engines
+
+* **[open-policy-agent/opa](https://github.com/open-policy-agent/opa)** [![GitHub stars](https://img.shields.io/github/stars/open-policy-agent/opa?style=social&color=white)](https://github.com/open-policy-agent/opa/stargazers)
+
+  General-purpose policy engine for transparent transaction rules, risk limits & review policies.
+
+* **[j-easy/easy-rules](https://github.com/j-easy/easy-rules)** [![GitHub stars](https://img.shields.io/github/stars/j-easy/easy-rules?style=social&color=white)](https://github.com/j-easy/easy-rules/stargazers)
+
+  Lightweight Java rules engine for fast risk scoring prototyping.
+
+* **[CacheControl/json-rules-engine](https://github.com/CacheControl/json-rules-engine)** [![GitHub stars](https://img.shields.io/github/stars/CacheControl/json-rules-engine?style=social&color=white)](https://github.com/CacheControl/json-rules-engine/stargazers)
+
+  JSON-expressed rules engine for client/server risk rule execution.
+
+* **[cedar-policy/cedar](https://github.com/cedar-policy/cedar)** [![GitHub stars](https://img.shields.io/github/stars/cedar-policy/cedar?style=social&color=white)](https://github.com/cedar-policy/cedar/stargazers)
+
+  Fast expressive policy language and authorization engine for fine-grained risk rules.
+
+* **[NRules/NRules](https://github.com/NRules/NRules)** [![GitHub stars](https://img.shields.io/github/stars/NRules/NRules?style=social&color=white)](https://github.com/NRules/NRules/stargazers)
+
+  Rete-based rules engine for .NET to execute configurable transaction policies.
+
+### 🕸️ Graph Analytics & Entity Resolution
+
+* **[pyg-team/pytorch_geometric](https://github.com/pyg-team/pytorch_geometric)** [![GitHub stars](https://img.shields.io/github/stars/pyg-team/pytorch_geometric?style=social&color=white)](https://github.com/pyg-team/pytorch_geometric/stargazers)
+
+  Graph neural network framework for fraud ring identification & relationship modeling.
+
+* **[networkx/networkx](https://github.com/networkx/networkx)** [![GitHub stars](https://img.shields.io/github/stars/networkx/networkx?style=social&color=white)](https://github.com/networkx/networkx/stargazers)
+
+  Python graph analysis library for investigating connected components & transaction networks.
+
+* **[neo4j/neo4j](https://github.com/neo4j/neo4j)** [![GitHub stars](https://img.shields.io/github/stars/neo4j/neo4j?style=social&color=white)](https://github.com/neo4j/neo4j/stargazers)
+
+  Graph database for modeling relationships between cards, IPs, devices, merchants & fraud rings.
+
+* **[dmlc/dgl](https://github.com/dmlc/dgl)** [![GitHub stars](https://img.shields.io/github/stars/dmlc/dgl?style=social&color=white)](https://github.com/dmlc/dgl/stargazers)
+
+  Deep graph learning framework for entity risk scoring & graph-based fraud detection.
+
+* **[apache/age](https://github.com/apache/age)** [![GitHub stars](https://img.shields.io/github/stars/apache/age?style=social&color=white)](https://github.com/apache/age/stargazers)
+
+  PostgreSQL extension providing graph database capabilities for transactional risk analysis.
+
+* **[dedupeio/dedupe](https://github.com/dedupeio/dedupe)** [![GitHub stars](https://img.shields.io/github/stars/dedupeio/dedupe?style=social&color=white)](https://github.com/dedupeio/dedupe/stargazers)
+
+  Python library for fuzzy matching, record deduplication & entity resolution across risk datasets.
+
+* **[moj-analytical-services/splink](https://github.com/moj-analytical-services/splink)** [![GitHub stars](https://img.shields.io/github/stars/moj-analytical-services/splink?style=social&color=white)](https://github.com/moj-analytical-services/splink/stargazers)
+
+  Probabilistic record linkage framework for customer & merchant entity resolution.
+
+* **[igraph/igraph](https://github.com/igraph/igraph)** [![GitHub stars](https://img.shields.io/github/stars/igraph/igraph?style=social&color=white)](https://github.com/igraph/igraph/stargazers)
+
+  High-performance C/Python network analysis library for large-scale fraud network detection.
+
+### 🔎 AML, Transaction Monitoring & Case Management
+
+* **[opensearch-project/OpenSearch](https://github.com/opensearch-project/OpenSearch)** [![GitHub stars](https://img.shields.io/github/stars/opensearch-project/OpenSearch?style=social&color=white)](https://github.com/opensearch-project/OpenSearch/stargazers)
+
+  Distributed search & analytics engine for transaction investigation & risk case management.
+
+* **[MISP/MISP](https://github.com/MISP/MISP)** [![GitHub stars](https://img.shields.io/github/stars/MISP/MISP?style=social&color=white)](https://github.com/MISP/MISP/stargazers)
+
+  Threat intelligence sharing platform for exchanging fraud indicators & risk signals.
+
+* **[TheHive-Project/TheHive](https://github.com/TheHive-Project/TheHive)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/TheHive?style=social&color=white)](https://github.com/TheHive-Project/TheHive/stargazers)
+
+  Security incident & investigation case management platform adaptable to fraud operations.
+
+* **[TheHive-Project/Cortex](https://github.com/TheHive-Project/Cortex)** [![GitHub stars](https://img.shields.io/github/stars/TheHive-Project/Cortex?style=social&color=white)](https://github.com/TheHive-Project/Cortex/stargazers)
+
+  Observable analysis engine for auto-enriching suspicious entities in fraud investigations.
+
+* **[opensanctions/opensanctions](https://github.com/opensanctions/opensanctions)** [![GitHub stars](https://img.shields.io/github/stars/opensanctions/opensanctions?style=social&color=white)](https://github.com/opensanctions/opensanctions/stargazers)
+
+  Open database of international sanctions, PEPs & high-risk entities for KYC/AML screening.
+
+* **[mojaloop/mojaloop](https://github.com/mojaloop/mojaloop)** [![GitHub stars](https://img.shields.io/github/stars/mojaloop/mojaloop?style=social&color=white)](https://github.com/mojaloop/mojaloop/stargazers)
+
+  Open payment interoperability platform for compliant transaction processing architectures.
+
+### 🌊 Streaming & Real-Time Infrastructure
+
+* **[apache/spark](https://github.com/apache/spark)** [![GitHub stars](https://img.shields.io/github/stars/apache/spark?style=social&color=white)](https://github.com/apache/spark/stargazers)
+
+  Unified analytics engine for large-scale offline fraud feature extraction & model training.
+
+* **[apache/kafka](https://github.com/apache/kafka)** [![GitHub stars](https://img.shields.io/github/stars/apache/kafka?style=social&color=white)](https://github.com/apache/kafka/stargazers)
+
+  Distributed event streaming backbone for transaction, login & chargeback event pipelines.
+
+* **[apache/flink](https://github.com/apache/flink)** [![GitHub stars](https://img.shields.io/github/stars/apache/flink?style=social&color=white)](https://github.com/apache/flink/stargazers)
+
+  Stateful stream processing engine for real-time velocity calculations & fraud window aggregations.
+
+* **[temporalio/temporal](https://github.com/temporalio/temporal)** [![GitHub stars](https://img.shields.io/github/stars/temporalio/temporal?style=social&color=white)](https://github.com/temporalio/temporal/stargazers)
+
+  Durable execution engine for managing complex manual review & chargeback workflows.
+
+* **[nats-io/nats-server](https://github.com/nats-io/nats-server)** [![GitHub stars](https://img.shields.io/github/stars/nats-io/nats-server?style=social&color=white)](https://github.com/nats-io/nats-server/stargazers)
+
+  Ultra-lightweight messaging system for low-latency risk signal distribution.
+
+* **[apache/pulsar](https://github.com/apache/pulsar)** [![GitHub stars](https://img.shields.io/github/stars/apache/pulsar?style=social&color=white)](https://github.com/apache/pulsar/stargazers)
+
+  Distributed pub-sub messaging system for real-time event-driven risk architectures.
+
+* **[rabbitmq/rabbitmq-server](https://github.com/rabbitmq/rabbitmq-server)** [![GitHub stars](https://img.shields.io/github/stars/rabbitmq/rabbitmq-server?style=social&color=white)](https://github.com/rabbitmq/rabbitmq-server/stargazers)
+
+  Message broker for asynchronous fraud workflows, alert routing & case creation.
+
+### 📊 Search, Analytics & Risk Operations
+
+* **[grafana/grafana](https://github.com/grafana/grafana)** [![GitHub stars](https://img.shields.io/github/stars/grafana/grafana?style=social&color=white)](https://github.com/grafana/grafana/stargazers)
+
+  Operational dashboards for monitoring fraud rates, review queues & decision metrics.
+
+* **[apache/superset](https://github.com/apache/superset)** [![GitHub stars](https://img.shields.io/github/stars/apache/superset?style=social&color=white)](https://github.com/apache/superset/stargazers)
+
+  Enterprise data exploration platform for building risk decisioning dashboards.
+
+* **[ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)** [![GitHub stars](https://img.shields.io/github/stars/ClickHouse/ClickHouse?style=social&color=white)](https://github.com/ClickHouse/ClickHouse/stargazers)
+
+  Columnar OLAP database for fast analytical queries on massive transaction streams.
+
+* **[metabase/metabase](https://github.com/metabase/metabase)** [![GitHub stars](https://img.shields.io/github/stars/metabase/metabase?style=social&color=white)](https://github.com/metabase/metabase/stargazers)
+
+  Self-hosted BI tool for business analyst reporting on merchant risk metrics.
+
+* **[duckdb/duckdb](https://github.com/duckdb/duckdb)** [![GitHub stars](https://img.shields.io/github/stars/duckdb/duckdb?style=social&color=white)](https://github.com/duckdb/duckdb/stargazers)
+
+  In-process analytical SQL database for local fraud investigation & model prototyping.
+
+* **[postgres/postgres](https://github.com/postgres/postgres)** [![GitHub stars](https://img.shields.io/github/stars/postgres/postgres?style=social&color=white)](https://github.com/postgres/postgres/stargazers)
+
+  Relational database foundation for merchant profiles, transaction logs & decision audit trails.
+
+### 🤖 AI & LLM Infrastructure for Risk Ops
+
+* **[ollama/ollama](https://github.com/ollama/ollama)** [![GitHub stars](https://img.shields.io/github/stars/ollama/ollama?style=social&color=white)](https://github.com/ollama/ollama/stargazers)
+
+  Local LLM runner for private fraud investigation assistants & case summaries.
+
+* **[langchain-ai/langchain](https://github.com/langchain-ai/langchain)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langchain?style=social&color=white)](https://github.com/langchain-ai/langchain/stargazers)
+
+  Framework for developing LLM-powered risk decisioning & investigation tools.
+
+* **[vllm-project/vllm](https://github.com/vllm-project/vllm)** [![GitHub stars](https://img.shields.io/github/stars/vllm-project/vllm?style=social&color=white)](https://github.com/vllm-project/vllm/stargazers)
+
+  High-throughput LLM inference engine for self-hosted risk analysis services.
+
+* **[BerriAI/litellm](https://github.com/BerriAI/litellm)** [![GitHub stars](https://img.shields.io/github/stars/BerriAI/litellm?style=social&color=white)](https://github.com/BerriAI/litellm/stargazers)
+
+  Unified API gateway for connecting risk applications to 100+ LLM backends.
+
+* **[run-llama/llama_index](https://github.com/run-llama/llama_index)** [![GitHub stars](https://img.shields.io/github/stars/run-llama/llama_index?style=social&color=white)](https://github.com/run-llama/llama_index/stargazers)
+
+  Data framework for connecting risk documents & transaction histories to LLM agents.
+
+* **[langchain-ai/langgraph](https://github.com/langchain-ai/langgraph)** [![GitHub stars](https://img.shields.io/github/stars/langchain-ai/langgraph?style=social&color=white)](https://github.com/langchain-ai/langgraph/stargazers)
+
+  Stateful agentic framework for complex multi-step fraud investigation workflows.
+
+* **[deepset-ai/haystack](https://github.com/deepset-ai/haystack)** [![GitHub stars](https://img.shields.io/github/stars/deepset-ai/haystack?style=social&color=white)](https://github.com/deepset-ai/haystack/stargazers)
+
+  Open-source RAG framework for querying compliance guidelines & fraud policy bases.
+
+---
+
+## 🏗️ Recommended Self-Hosted Risk Architecture
+
+To build a full self-hosted alternative to SaaS platforms:
+
+```
+                  ┌─────────────────────────────────────────┐
+                  │   E-Commerce / PSP Transaction Event   │
+                  └────────────────────┬────────────────────┘
+                                       │
+                                       ▼
+                  ┌─────────────────────────────────────────┐
+                  │       FingerprintJS / Device Signals    │
+                  └────────────────────┬────────────────────┘
+                                       │
+                                       ▼
+                  ┌─────────────────────────────────────────┐
+                  │     Apache Kafka (Ingestion Event)      │
+                  └────────────────────┬────────────────────┘
+                                       │
+                   ┌───────────────────┴───────────────────┐
+                   ▼                                       ▼
+    ┌─────────────────────────────┐         ┌─────────────────────────────┐
+    │  Apache Flink + Redis       │         │  Feast Feature Store        │
+    │  Real-Time Velocity Signals │         │  Online Risk Features       │
+    └──────────────┬──────────────┘         └──────────────┬──────────────┘
+                   │                                       │
+                   └───────────────────┬───────────────────┘
+                                       │
+                                       ▼
+                  ┌─────────────────────────────────────────┐
+                  │  Ballerine / Jube Risk Decision Engine  │
+                  │  (XGBoost / LightGBM + OPA Rules)       │
+                  └────────────────────┬────────────────────┘
+                                       │
+                ┌──────────────────────┼──────────────────────┐
+                ▼                      ▼                      ▼
+        [ Approve (Pass) ]     [ Flag for Review ]    [ Decline (Block) ]
+                                       │
+                                       ▼
+                         ┌───────────────────────────┐
+                         │ OpenSearch / Temporal     │
+                         │ Analyst Review & Cases    │
+                         └───────────────────────────┘
+```
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Merchant-Risk-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Merchant-Risk-Platform&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Community
+
+Thank you for exploring **Awesome Merchant Risk Platform**! If this repository helped you evaluate, build, or research fraud prevention solutions, please consider supporting the project:
+
+- ⭐ **Star this repository** to help others discover it.
+- 🔀 **Fork & Contribute** by submitting a Pull Request with new open-source risk tools or SaaS entries.
+- 📢 **Share** with colleagues, engineering leads, and risk practitioners.
+- ☕ **Buy me a coffee**: Support ongoing updates via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+<a href="https://github.com/sponsors/ishandutta2007"><img src="https://img.shields.io/badge/Sponsor-GitHub%20Sponsors-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub" /></a>
+
+---
+
+*Maintainer:* [@ishandutta2007](https://github.com/ishandutta2007) | Curated with ❤️ for the global fraud engineering community.
